@@ -10,7 +10,7 @@
     } else if (/json$/i.test(search_path)) {
       isXml = false;
     }
-    var path = "{{ site.baseurl }}" + search_path;
+    var path = "{{ site.baseurl }}/" + search_path;
     // monitor main search box;
 
     var onPopupClose = function (e) {
