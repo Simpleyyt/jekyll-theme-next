@@ -1,0 +1,5 @@
+---
+title: categories
+layout: page
+type: categories
+---

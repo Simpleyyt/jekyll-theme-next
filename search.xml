@@ -1,0 +1,25 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  {% for post in site.posts %}
+    <entry>
+      <title><![CDATA[{{ post.title }}]]></title>
+      <url>{{ post.url | relative_url }}</url>
+      <content type="html"><![CDATA[{{ post.content }}]]></content>
+      <categories>
+        {% for category in post.categories %}
+          <category> {{ category }} </category>
+        {% endfor %}
+      </categories>
+      <tags>
+        {% for tag in post.tags %}
+          <tag> {{ tag }} </tag>
+        {% endfor %}
+      </tags>
+      <tags></tags>
+    </entry>
+  {% endfor %}
+</search>

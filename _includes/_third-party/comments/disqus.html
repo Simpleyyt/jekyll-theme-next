@@ -1,0 +1,23 @@
+{% unless site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
+  {% if site.disqus.enable %}
+
+    {% if site.disqus.count %}
+      <script id="dsq-count-scr" src="https://{{site.disqus.shortname}}.disqus.com/count.js" async></script>
+    {% endif %}
+
+    {% if page.comments %}
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = '{{ page.url | absolute_url }}';
+          this.page.identifier = '{{ page.url | relative_url }}';
+          this.page.title = '{{ page.title| replace: "'", "\\'" }}';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{site.disqus.shortname}}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    {% endif %}
+
+  {% endif %}
+{% endunless %}
