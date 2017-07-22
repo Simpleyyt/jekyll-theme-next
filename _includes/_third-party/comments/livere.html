@@ -1,7 +1,7 @@
 {% unless site.duoshuo and site.duoshuo.shortname %}
   {% unless site.hypercomments_id or site.gentie_productKey or site.duoshuo_shortname or site.disqus.enable and site.disqus.shortname %}
 
-    {% if site.livere_uid and page.comments == nil or page.comments == true %}
+    {% if page.comments and site.livere_uid %}
       <script type="text/javascript">
         (function(d, s) {
           var j, e = d.getElementsByTagName(s)[0];
