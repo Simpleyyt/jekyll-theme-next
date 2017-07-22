@@ -114,7 +114,7 @@
             </span>
           {% endif %}
 
-          {% if post.comments == true or post.comments == nil %}
+          {% if post.comments %}
             {% if site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>

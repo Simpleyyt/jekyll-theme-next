@@ -1,4 +1,4 @@
-{% if page.comments == true or page.comments == nil %}
+{% if page.comments %}
   <div class="comments" id="comments">
     {% if site.duoshuo and site.duoshuo.shortname or site.duoshuo_shortname %}
       <div class="ds-thread" data-thread-key="{{ page.url | relative_url }}"
