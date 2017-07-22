@@ -13,7 +13,7 @@
 				{% endif %}
 			{% endunless %}
 
-			{% if page.comments and site.vkontakte_api.comments %}
+			{% if site.vkontakte_api.comments and page.comments == true or page.comments == nil %}
 				VK.Widgets.Comments("vk_comments", {limit: {{  site.vkontakte_api.num_of_posts }}, attach: "*"});
 			{% endif %}
 		};
