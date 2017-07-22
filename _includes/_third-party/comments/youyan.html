@@ -7,7 +7,7 @@
   {% if site.youyan_uid %}
     {% assign uid = site.youyan_uid %}
 
-    {% if page.comments %}
+    {% if page.comments == true or page.comments == nil %}
       <!-- UY BEGIN -->
       <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid={{uid}}"></script>
       <!-- UY END -->

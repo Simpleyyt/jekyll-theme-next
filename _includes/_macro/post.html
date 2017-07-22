@@ -114,7 +114,7 @@
             </span>
           {% endif %}
 
-          {% if post.comments %}
+          {% if post.comments == true or post.comments == nil %}
             {% if site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
@@ -341,7 +341,8 @@
       {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="{{ '/tags/?' | append: tag }}" rel="tag"># {{ tag }}</a>
+            {% assign tag_url_encode = tag | url_encode %}
+            <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" rel="tag"># {{ tag }}</a>
           {% endfor %}
         </div>
       {% endif %}

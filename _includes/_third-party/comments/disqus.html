@@ -5,7 +5,7 @@
       <script id="dsq-count-scr" src="https://{{site.disqus.shortname}}.disqus.com/count.js" async></script>
     {% endif %}
 
-    {% if page.comments %}
+    {% if page.comments == true or page.comments == nil %}
       <script type="text/javascript">
         var disqus_config = function () {
           this.page.url = '{{ page.url | absolute_url }}';
