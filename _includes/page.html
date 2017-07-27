@@ -26,12 +26,12 @@
   {% elsif page.type == 'categories' %}
     <div class="category-all-page">
       <div class="category-all-title">
-          {% if site.tags.size == 0 %}
+          {% if site.categories.size == 0 %}
             {{ __.counter.categories.zero }}
-          {% elsif site.tags.size == 1 %}
+          {% elsif site.categories.size == 1 %}
             {{ __.counter.categories.one }}
           {% else %}
-            {{ __.counter.categories.other | replace: '%d', site.tags.size }}
+            {{ __.counter.categories.other | replace: '%d', site.categories.size }}
           {% endif %}
       </div>
       <div class="category-all">
