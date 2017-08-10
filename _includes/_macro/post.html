@@ -341,7 +341,8 @@
       {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
           {% for tag in post.tags %}
-            <a href="{{ '/tags/?' | append: tag }}" rel="tag"># {{ tag }}</a>
+            {% assign tag_url_encode = tag | url_encode %}
+            <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" rel="tag"># {{ tag }}</a>
           {% endfor %}
         </div>
       {% endif %}
@@ -381,7 +382,7 @@
       {% endunless %}
 
       {% unless is_index %}
-      {% if post.prev or post.next %}
+      {% if post.previous or post.next %}
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             {% if post.next %}
@@ -394,9 +395,9 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            {% if post.prev %}
-              <a href="{{ post.prev.url | relative_url }}" rel="prev" title="{{ post.prev.title }}">
-                {{ post.prev.title }} <i class="fa fa-chevron-right"></i>
+            {% if post.previous %}
+              <a href="{{ post.previous.url | relative_url }}" rel="prev" title="{{ post.previous.title }}">
+                {{ post.previous.title }} <i class="fa fa-chevron-right"></i>
               </a>
             {% endif %}
           </div>

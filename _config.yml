@@ -34,6 +34,9 @@ paginate: 10
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
 
+# Separator
+#excerpt_separator: <!-- more -->
+
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
@@ -53,6 +56,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      comments: true
 
 # Atom feed
 feed:
@@ -226,8 +230,7 @@ social_icons:
 
 
 # Sidebar Avatar
-# in theme directory(assets/images): /images/avatar.jpg
-# in site  directory(assets/uploads): /uploads/avatar.jpg
+# in directory: /assets/images/avatar.gif
 #avatar:
 
 
