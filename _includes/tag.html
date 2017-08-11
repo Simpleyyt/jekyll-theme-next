@@ -10,7 +10,7 @@
   {% assign paginate_path = site.tag.paginate_path | default: site.paginate_path  %}
 
   {% for tag_posts in site.tags %}
-    {% assign tag = tag_posts[0] | url_encode %}
+    {% assign tag = tag_posts[0] | uri_encode %}
     {% assign posts = tag_posts[1] %}
 
     {% for post in posts %}
