@@ -50,7 +50,7 @@
       {% assign mid_color = 'rgb(' | append: mid_color[0] | append: ',' | append: mid_color[1] | append: ',' | append: mid_color[2] | append: ')' %}
       {% assign style = style | append: 'color: ' | append: mid_color %}
     {% endif %}
-    {% assign tag_url_encode = tag[0] | url_encode %}
+    {% assign tag_url_encode = tag[0] | uri_encode %}
     <a href="{{ '/tag/#/' | relative_url | append: tag_url_encode }}" style="{{ style }}">{{ tag[0] }}</a>
   {% endfor %}
 
