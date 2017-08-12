@@ -383,7 +383,7 @@
 
       {% unless is_index %}
       {% if post.previous or post.next %}
-        <div class="post-nav">
+        <div class="post-nav" id="post-nav-id">
           <div class="post-nav-next post-nav-item">
             {% if post.next %}
               <a href="{{ post.next.url | relative_url }}" rel="next" title="{{ post.next.title }}">
