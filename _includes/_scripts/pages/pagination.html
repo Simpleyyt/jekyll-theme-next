@@ -36,7 +36,7 @@
 
         {% capture maps %}
           {% for name_posts in collections %}
-            '{{ name_posts[0] | uri_encode }}': {{ name_posts[1].size }},
+            '{{ name_posts[0] | url_encode | replace: '+', '%20' }}': {{ name_posts[1].size }},
           {% endfor %}
         {% endcapture %}
         {% assign maps = maps | normalize_whitespace %}
