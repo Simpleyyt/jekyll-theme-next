@@ -384,7 +384,7 @@ disqus:
   enable: true # turn on for testing
   shortname: pwyqblog # for testing
   hide: true # new function testing
-  count: true
+  count: false # need to be false; otherwise the count shows 0 or only an comment icon
 
 # Hypercomments
 #hypercomments_id:
