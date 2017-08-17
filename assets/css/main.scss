@@ -20,7 +20,8 @@ $jekyll-config-map : (
       {% continue %}
     {% endif %}
     {% assign names = names | push: name %}
-    {% assign values = values | push: site[name] %}
+    {% capture value %}{{ site[name] }}{% endcapture %}
+    {% assign values = values | push: value %}
     {% assign levels = levels | push: 0 %}
   {% endfor %}
 
