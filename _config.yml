@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Angrypig7's Blog
+title: Angrypig7
 subtitle:
 description: A personal blog
-author: John Doe / Angrypi
+author: Angrypig / John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en, ko
+language: ko
 date_format: '%Y-%m-%d'
 
 # URL
