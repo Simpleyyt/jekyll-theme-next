@@ -9,7 +9,7 @@ subtitle:
 description: A personal blog
 author: Angrypig / John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: ko
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
