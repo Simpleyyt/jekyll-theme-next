@@ -44,7 +44,7 @@ highlighter: rouge
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
-markdown: markdown
+markdown: kramdown
 kramdown:
     input: GFM
 
