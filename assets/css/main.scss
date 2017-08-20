@@ -9,7 +9,9 @@ $variables : base $scheme custom;
 $mixins    : base $scheme custom;
 
 $jekyll-config-map : (
-  {% assign exclude = 'source, time, data, documents, github, related_posts, posts, pages, static_files, html_pages, html_files, collections, categories, tags' | split: ', ' %}
+  {% assign exclude = 'source, time, data, documents, github, related_posts, \
+    posts, pages, static_files, html_pages, html_files, collections, \
+    categories, tags, kramdown' | split: ', ' %}
   {% assign names = '' | split: '' %}
   {% assign values = '' | split: '' %}
   {% assign levels = '' | split: '' %}
@@ -20,8 +22,7 @@ $jekyll-config-map : (
       {% continue %}
     {% endif %}
     {% assign names = names | push: name %}
-    {% capture value %}{{ site[name] }}{% endcapture %}
-    {% assign values = values | push: value %}
+    {% assign values = values | push: site[name] %}
     {% assign levels = levels | push: 0 %}
   {% endfor %}
 
@@ -45,7 +46,8 @@ $jekyll-config-map : (
     {% assign keys = keys | slice: 0, level %}
     {% assign keys = keys | push: name %}
 
-    {% if value.first %}
+    {% assign value_type = value | jsonify | slice: 0 %}
+    {% if value_type == '{' %}
       {% assign level = level | plus: 1 %}
       {% if level < 3 %}
         {% for name_value in value %}
@@ -54,7 +56,7 @@ $jekyll-config-map : (
           {% assign levels = levels | push: level %}
         {% endfor %}
       {% endif %}
-    {% else %}
+    {% elsif value_type != '[' %}
       {% assign value = value | jsonify %}
       {% if value != '{}' and value != '[]' %}
         '{{ keys | join: "." }}': {{ value }},

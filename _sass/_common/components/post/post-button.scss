@@ -10,7 +10,7 @@
     margin: 0 4px 8px 4px;
   }
   .btn:hover {
-    @extend .btn:hover;
+    @extend %btn-hover;
   }
   .fa-fw {
     width: (18em / 14);
