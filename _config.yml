@@ -11,7 +11,6 @@ author: Angrypig7
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
-encoding: UTF-8
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
@@ -701,3 +700,5 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+encoding: UTF-8
