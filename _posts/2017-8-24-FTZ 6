@@ -24,4 +24,17 @@ categories: FTZ
     
     접속하고 싶은 bbs를 선택하세요 :
 
+하지만 '텔넷 접속 서비스'가 나오기 전에 Ctrl + C 를 누르면 이렇게 빠져나올 수 있다.
+
+    login as: level6
+    level6@192.168.42.134's password:
+    
+    
+    hint - 인포샵 bbs의 텔넷 접속 메뉴에서 많이 사용되던 해킹 방법이다.
+    
+    
+    
+    [level6@ftz level6]$ ls
+    hint  password  public_html  tmp  tn
+
 그래서
