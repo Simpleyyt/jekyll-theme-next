@@ -38,3 +38,8 @@ categories: FTZ
     hint  password  public_html  tmp  tn
 
 그래서
+
+    [level6@ftz level6]$ cat password
+    Level7 password is "come together".
+
+뚫었다(?)
