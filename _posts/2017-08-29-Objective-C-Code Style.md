@@ -1,4 +1,4 @@
-####代码组织
+#### 代码组织
 ```
 #pragma mark - Lifecycle
 
@@ -38,8 +38,8 @@
 
 - (NSString *)description {}
 ```
-####间距
-*针对 if/else/switch/while 等
+#### 间距
+* 针对 if/else/switch/while 等
 ```
 if (user.isHappy) {
   //Do something
@@ -62,15 +62,15 @@ if (condition) statement;
 if(condition)
 	 statement;
 ```
-####注释
+#### 注释
 * 在一些不易理解的代码部分，应适当加以注释说明。同时在.m中也应避免大段的成块注释，而只应写一些简单的说明。
 
-####方法
+#### 方法
 * 在方法签名中，- or + 后面最好接一个空格
 ```
 - (void)setExampleText:(NSString *)text image:(UIImage *)image;
 ```
-####变量
+#### 变量
 * *应该紧贴变量名 (有const修饰的情况除外)
 ```
 NSString *text
@@ -96,12 +96,12 @@ NSString *text
 ```
  @property（copy，nonatomic） NSString * tutorialName; 
 ```
-####协议 
+#### 协议 
 * 针对 delegate 或 data source协议，第一个参数应该是发送该协议的对象 (处理一对多的情况)
 ```
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath;
 ```
-####Imports
+#### Imports
 * 如果imports过多的情况，建议简单的按照用途分在一起
 ```
 // Frameworks
@@ -114,7 +114,7 @@ NSString *text
 #import "NYTButton.h"
 #import "NYTUserView.h"
 ```
-####错误处理
+#### 错误处理
 * 当执行的方法中error是以引用的形式返回时，我们应该先检查返回值，而不是直接对error进行判空操作
 ```
 NSError *error;
@@ -130,7 +130,7 @@ if (error) {
 }
 ```
 原因是某些Apple的API可能会往error中写入一些垃圾值，这就会使某些正确的情况被判断为错误。
-####命名
+#### 命名
 * 常量命名: 驼峰 + 前缀（相关类）
 ```
 static const NSTimeInterval THSArticleViewControllerNavigationFadeAnimationDuration = 0.3;
@@ -151,7 +151,7 @@ category所添加的属性和方法需要加上 特定的 组织或者APP前缀�
 - (id)ths_objectOrNilAtIndex:(NSUInteger)index;
 @end
 ```
-####字面量
+#### 字面量
 多用字面量语法，少用与之等价的方法
 ```
 NSArray *names = @[@"Brian", @"Matt", @"Chris", @"Alex", @"Steve", @"Paul"];
@@ -164,7 +164,7 @@ NSDictionary *productManagers = [NSDictionary dictionaryWithObjectsAndKeys: @"Ka
 NSNumber *shouldUseLiterals = [NSNumber numberWithBool:YES];
 NSNumber *buildingZIPCode = [NSNumber numberWithInteger:10018];
 ```
-####CGRect 相关函数
+#### CGRect 相关函数
 * 当需要获取x, y, width, height等值时，最好使用CGRect的相关函数来获得，而不是直接获取CGRect结构体的值(确保宽，高都为正数等等)
 ```
 CGRect frame = self.view.frame;
@@ -175,7 +175,7 @@ CGFloat width = CGRectGetWidth(frame);
 CGFloat height = CGRectGetHeight(frame);
 ```
 http://stackoverflow.com/questions/5970823/cgrectgetwidth-vs-cgrect-size-width
-####布尔值
+#### 布尔值
 * 不要直接与YES比较！
 ```
 if (isAwesome == YES) // Never do this.
@@ -194,7 +194,7 @@ if (b != YES) {
 ```
 @property (assign, getter=isEditable) BOOL editable;
 ```
-####条件语句
+#### 条件语句
 * 尽量不要嵌套多个if语句。 （可用多个return语句来取代if的嵌套）
 ```
 - (void)someMethod {
@@ -209,5 +209,5 @@ if (b != YES) {
     }
 }
 ```
-####私有变量
+#### 私有变量
 * 私有变量应放在.m的实现文件中。不应该在.h中堆砌。
