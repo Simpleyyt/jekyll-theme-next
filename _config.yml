@@ -94,7 +94,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: cube
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -128,13 +128,14 @@ jekyll-mentions:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
-  tags: /tags/
+  #tags: /tags/
   #sitemap: /sitemap.xml
-  #commonweal: /404.html
-
+  commonweal: /status.html
+  ualberta: /redir/ua.html
+  preflame: /redir/pf.html
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -152,9 +153,8 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
-
-
+  ualberta: code
+  preflame: bolt
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -178,7 +178,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: 
 
   # Global font settings used on <body> element.
   global:
@@ -190,26 +190,26 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family:
+    family: 
 
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
-    family:
+    family: Tinos
 
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
-    family:
+    family: 
     size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Fira Mono
     size:
 
 
@@ -226,8 +226,12 @@ font:
 #social:
   #LinkLabel: Link
 social:
-  GitHub: https://github.com/lued
-  Twitter: https://twitter.com/XanderLuedtke
+  github: https://github.com/lued
+  twitter: https://twitter.com/XanderLuedtke
+  steam: https://steamcommunity.com/id/Undemanding
+  discord: https://discord.gg/jCG5DUt
+  email: mailto:XanderLuedtke@gmail.com
+  pgp: https://pgp.mit.edu/pks/lookup?search=xanderluedtke%40gmail.com&op=index
 
 # Social Links Icons
 # Icon Mapping:
@@ -238,14 +242,16 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
-
+  github: github
+  twitter: twitter
+  discord: comment
+  steam: steam
+  email: envelope
+  pgp: drivers-license
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.gif
 
 
 # Table Of Contents in the Sidebar
@@ -330,7 +336,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: false
-  min2read: false
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -375,7 +381,7 @@ highlight_theme: night
 # MathJax Support
 mathjax:
   enable: true
-  per_page: false
+  per_page: true
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
 # Han Support docs: https://hanzi.pro/
@@ -392,12 +398,12 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: luedtke
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
-  hide: false
+  hide: true
 
 # Hypercomments
 #hypercomments_id:
@@ -508,9 +514,9 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
-  site_uv: true
+  site_uv: false
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
   # custom pv span for the whole site
@@ -563,7 +569,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -588,7 +594,7 @@ use_motion: true
 fancybox: true
 
 # Progress bar in the top during page loading.
-pace: false
+pace: true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
@@ -663,7 +669,7 @@ vendors:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome:
+  fontawesome: 
 
   # Internal version: 1
   # https://www.algolia.com

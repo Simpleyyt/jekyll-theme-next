@@ -15,7 +15,9 @@ menu:
   search: Search
   schedule: Schedule
   sitemap: Sitemap
-  commonweal: Commonweal 404
+  commonweal: Status
+  ualberta: U of A
+  preflame: prefla.me
 
 sidebar:
   overview: Overview
@@ -47,7 +49,7 @@ page:
 
 footer:
   powered: "Powered by %s"
-  theme: Theme
+  theme: Theme 
 
 counter:
   tag_cloud:
