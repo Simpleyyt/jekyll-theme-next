@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: IT -> CS
+subtitle: The struggle from IT passion to CS desire
+description: Eric S. Raymond have mercy
+author: Xander Luedtke
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://blog.luedtke.ca/
 baseurl:
 permalink: pretty
 
@@ -69,7 +69,12 @@ plugins:
 # - jemoji
  - jekyll-sitemap
  - jekyll-feed
+ - jemoji
 
+whitelist:
+ - jekyll-redirect-from
+ - jekyll-mentions
+   
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -78,7 +83,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jekyll, blog, github, UofA, C, C++, Assembly, MIPS, IT, Homelab, Computing Science"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -104,11 +109,17 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
+
+#----------------------------------------------------------------
+# Mentions
+#----------------------------------------------------------------
+jekyll-mentions:
+    base_url: https://github.com
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -150,8 +161,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -214,7 +225,9 @@ font:
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
   #LinkLabel: Link
-
+social:
+  GitHub: https://github.com/lued
+  Twitter: https://twitter.com/XanderLuedtke
 
 # Social Links Icons
 # Icon Mapping:
@@ -295,7 +308,7 @@ sidebar:
 scroll_to_more: true
 
 # Automatically saving scroll position on each post/page in cookies.
-save_scroll: false
+save_scroll: true
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
@@ -352,7 +365,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # ---------------------------------------------------------------
@@ -361,7 +374,7 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -369,7 +382,7 @@ mathjax:
 han: false
 
 # Swiftype Search API Key
-#swiftype_key:
+  #swiftype_key:
 
 # Baidu Analytics ID
 #baidu_analytics:
