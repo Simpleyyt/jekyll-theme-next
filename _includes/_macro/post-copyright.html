@@ -10,7 +10,7 @@
     </li>
     <li class="post-copyright-license">
       <strong>{{ __.post.copyright.license_title | append: __.symbol.colon }} </strong>
-      {{ __.post.copyright.license_content | replace_first: '%s', site.post_copyright.license_url | replace_first: '%s' site.post_copyright.license }}
+      {{ __.post.copyright.license_content | replace_first: '%s', site.post_copyright.license_url | replace_first: '%s', site.post_copyright.license }}
     </li>
   </ul>
 {% endif %}
