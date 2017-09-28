@@ -91,7 +91,7 @@
       {% assign str = tmp[1] | strip %}
 
       {% assign tmp = tmp[0] | strip | split: '>' %}
-      {% assign title = tmp[1] %}
+      {% assign title = tmp | shift | join: '>' | strip_html %}
 
       {% assign tmp = tmp[0] | strip | split: 'id=' %}
       {% assign id = tmp[1] | strip | replace: '"', '' %}
