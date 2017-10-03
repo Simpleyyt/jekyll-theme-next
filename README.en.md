@@ -38,7 +38,7 @@ Install `Bundler`:
 gem install bundler
 ```
 
-Clone Jacman theme:
+Clone NexT theme:
 
 ```sh
 git clone https://github.com/Simpleyyt/jekyll-theme-next.git
