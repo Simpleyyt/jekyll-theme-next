@@ -4,7 +4,7 @@
 
 
  * [Live Preview](http://simpleyyt.github.io/jekyll-theme-next/)
- * [Yitao's Blog](http://simpleyyt.github.io)
+ * [Yitao's Blog](http://simpleyyt.com)
 
 ## Screenshots
 
