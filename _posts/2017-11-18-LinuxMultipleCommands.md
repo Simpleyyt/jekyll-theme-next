@@ -47,6 +47,3 @@ tags: MISC, Linux
     user1@ubuntu:~/Desktop$
 
 실행시 위처럼 PID 값을 준 후 쉘로 돌아간다. 작업 종료시에는 `kill 12552` 로 종료시킬 수 있다.
-
-
-&#124;&#124;&#124;
