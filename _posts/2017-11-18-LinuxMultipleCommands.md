@@ -43,7 +43,7 @@ tags: MISC, Linux
 
 |>	|표준 출력|ls > note.txt|ls의 결과를 note.txt에 저장|
 |>>	|표준 출력 추가|ls >> note.txt|ls의 결과를 note.txt의 끝부분에 추가하여 저장|
-|<	|표준 입력|user1@ubuntu:~/temp/tmp1$ grep Evon < note.txt |note.txt를 읽어들여 grep으로 Evon이 들어간 줄을 검색|
+|<	|표준 입력|grep Evon < note.txt |note.txt를 읽어들여 grep으로 Evon이 들어간 줄을 검색|
 
 아래는 표준 입력을 사용한 예시이다.
 
