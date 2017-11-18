@@ -14,9 +14,23 @@ tags: MISC, Linux
 
 #### ; - 무조건 다음 명령어 실행
 
+; 은 앞의 명령어 실행결과, 즉 성공여부와 상관없이 다음 명령어를 실행한다. 
 
-; 은 앞의 명령어 실행결과에 상관없이 다음 명령어를 실행, &&은 앞의 명령어가 성공했을 경우에만 다음 명령어를 실행한다.
+#### \|\| - 앞의 명령어가 실패시 다음 명령어 실행
 
+\|\| 는 앞의 명령어의 리턴 값이 0이 아닐때 다음 명령어를 실행하도록 되어 있다.
+참고로 명령이 성공적이라면 리턴값은 0이 나온다.
+
+; 과  \|\|의 차이는 아래의 실행결과를 보면 알 수 있다.
+
+    user1@ubuntu:~/temp$ ls -l
+    total 0
+    user1@ubuntu:~/temp$ mkdir tmp1;rmdir tmp1
+    user1@ubuntu:~/temp$ ls
+    user1@ubuntu:~/temp$ mkdir tmp1||rmdir tmp1
+    user1@ubuntu:~/temp$ ls
+    tmp1
+    user1@ubuntu:~/temp$
 
 ### 기타 명령어 옵션
 
