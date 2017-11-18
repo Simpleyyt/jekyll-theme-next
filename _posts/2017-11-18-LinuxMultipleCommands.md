@@ -59,13 +59,19 @@ tags: MISC, Linux
     user1@ubuntu:~/temp/tmp1$ grep Evon < note.txt 
     Evon Larger 
 
+
+#### \| - 앞의 명령어 실행결과를 다음 명령어에서도 사용
+싱글 파이프는 앞에서 실행된 출력결과를 다음 명렁어로 넘겨주는데에 사용된다.
+바로 위에서 사용된 예제는 아래처럼 바꿀 수도 있다.
+
+    user1@ubuntu:~/temp/tmp1$ cat note.txt | grep Evon
+    Evon Larger
+
 #### 파일 디스크립터
 
 0	|	표준입력(키보드)
 1	|	표준출력(모니터)
 2	|	표준에러(모니터)
-
-#### \| - 앞의 명령어 실행결과를 다음 명령어에서도 사용
 
 ## 기타 명령어 옵션
 
