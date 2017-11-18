@@ -40,7 +40,7 @@ tags: MISC, Linux
 입출력 리다이렉션이란 실행결과를 쉘로 출력하는 대신 바로 다른곳으로 넘기는 것이다.
 
 |>	|표준 출력|ls > note.txt|ls의 결과를 note.txt에 저장|
-|>>	|표준 출력 추가|ls >> note.txt|ls의 결과를 note.txt의 끝부분에 추가하여 저장|
+|>>	|표준 추가 출력|ls >> note.txt|ls의 결과를 note.txt의 끝부분에 추가하여 저장|
 |<	|표준 입력|grep Evon < note.txt |note.txt에서 Evon이 들어간 라인을 검색|
 
 아래는 표준 입력을 사용한 예시이다.
