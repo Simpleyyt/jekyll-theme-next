@@ -45,30 +45,19 @@ tags: MISC, Linux
 |>>	|표준 출력 추가|ls >> note.txt|ls의 결과를 note.txt의 끝부분에 추가하여 저장|
 |<	|표준 입력|user1@ubuntu:~/temp/tmp1$ grep Evon < note.txt |note.txt를 읽어들여 grep으로 Evon이 들어간 줄을 검색|
 
-user1@ubuntu:~/temp/tmp1$ cat note.txt 
-Jerry Campagna  
-Carylon Toth  
-Carolin Curtsinger  
-Irving Bill  
-Evon Larger  
-Lacy Priddy  
-Hilaria Wiesen  
-Melani Barefield  
-Shawana Lau  
-Rocio Cantor  
-Rex Fewell  
-Breanna Garbett  
-Junko Hardisty  
-Brittany Ruland  
-Chassidy Keaton  
-Alden Cota  
-Charlette Lejeune  
-Steffanie Kidd  
-Lavona Crosswell  
-Virgina Lucca
-user1@ubuntu:~/temp/tmp1$ grep Evon < note.txt 
-Evon Larger  
-user1@ubuntu:~/temp/tmp1$
+아래는 표준 입력을 사용한 예시이다.
+
+    user1@ubuntu:~/temp/tmp1$ cat note.txt 
+    Jerry Campagna  
+    Carylon Toth  
+    Carolin Curtsinger  
+    Irving Bill  
+    Evon Larger  
+    Lacy Priddy  
+    Hilaria Wiesen  
+    Melani Barefield  
+    user1@ubuntu:~/temp/tmp1$ grep Evon < note.txt 
+    Evon Larger 
 
 #### \| - 앞의 명령어 실행결과를 다음 명령어에서도 사용
 
