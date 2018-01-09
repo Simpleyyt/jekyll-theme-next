@@ -4,7 +4,7 @@
 
 
  * [Live Preview](http://simpleyyt.github.io/jekyll-theme-next/)
- * [Yitao's Blog](http://simpleyyt.github.io)
+ * [Yitao's Blog](http://simpleyyt.com)
 
 ## Screenshots
 
@@ -38,7 +38,7 @@ Install `Bundler`:
 gem install bundler
 ```
 
-Clone Jacman theme:
+Clone NexT theme:
 
 ```sh
 git clone https://github.com/Simpleyyt/jekyll-theme-next.git
