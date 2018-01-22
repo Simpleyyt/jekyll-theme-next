@@ -5,7 +5,7 @@
       {{ site.author }}
     </li>
     <li class="post-copyright-link">
-      <strong>{{ __.post.copyright.link | append: symbol.colon }}</strong>
+      <strong>{{ __.post.copyright.link | append: __.symbol.colon }}</strong>
       <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.url | absolute_url }}</a>
     </li>
     <li class="post-copyright-license">
