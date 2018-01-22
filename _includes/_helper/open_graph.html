@@ -15,7 +15,7 @@
   {% endif %}
 
   {% assign url = page.url | absolute_url %}
-  {% assign title = page.title | default: site.title %}
+  {% assign og_title = page.title | default: site.title %}
   {% assign site_name = site.title %}
   {% assign language = page.language | default: site.language %}
   {% assign updated = page.updated %}
@@ -54,7 +54,7 @@
   {% endif %}
 
   <meta property="og:type" content="{{ type | xml_escape }}"><!--newline-->
-  <meta property="og:title" content="{{ title | xml_escape }}"><!--newline-->
+  <meta property="og:title" content="{{ og_title | xml_escape }}"><!--newline-->
   <meta property="og:url" content="{{ url }}"><!--newline-->
   <meta property="og:site_name" content="{{ site_name | xml_escape }}"><!--newline-->
 
@@ -79,7 +79,7 @@
   {% endif %}
 
   <meta name="twitter:card" content="{{ twitter_card | xml_escape }}"><!--newline-->
-  <meta name="twitter:title" content="{{ title | xml_escape }}"><!--newline-->
+  <meta name="twitter:title" content="{{ og_title | xml_escape }}"><!--newline-->
 
   {% if description %}
     <meta name="twitter:description" content="{{ description }}">

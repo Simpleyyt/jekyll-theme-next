@@ -16,7 +16,7 @@
     {% endif %}
     {% assign str = str_stack | last %}
     {% assign level = level_stack | last %}
-    {% assign title = title_stack | last %}
+    {% assign toc_title = title_stack | last %}
     {% assign id = id_stack | last %}
     {% assign num = num_stack | last %}
 
@@ -49,7 +49,7 @@
     {% assign num_array = num_array | slice: 0, level %}
     {% assign num_array = num_array | push: num %}
 
-    {% if title and num_array.size != 0 %}
+    {% if toc_title and num_array.size != 0 %}
       <li class="{{ class }}-item {{ class }}-level-{{ level }}">
         <a class="{{ class }}-link" href="#{{ id }}">
           {% if list_number %}
@@ -58,7 +58,7 @@
             {% assign number = number | strip | remove_first: '.' %}
             <span class="{{ class }}-number">{{ number }}</span>
           {% endif %}
-          <span class="{{ class }}-text">{{ title }}</span>
+          <span class="{{ class }}-text">{{ toc_title }}</span>
         </a>
     {% endif %}
 
@@ -91,14 +91,14 @@
       {% assign str = tmp[1] | strip %}
 
       {% assign tmp = tmp[0] | strip | split: '>' %}
-      {% assign title = tmp | shift | join: '>' | strip_html %}
+      {% assign toc_title = tmp | shift | join: '>' | strip_html %}
 
       {% assign tmp = tmp[0] | strip | split: 'id=' %}
       {% assign id = tmp[1] | strip | replace: '"', '' %}
 
       {% assign str_stack = str_stack | push: str %}
       {% assign level_stack = level_stack | push: level %}
-      {% assign title_stack = title_stack | push: title %}
+      {% assign title_stack = title_stack | push: toc_title %}
       {% assign id_stack = id_stack | push: id %}
       {% assign num_stack = num_stack | push: forloop.rindex %}
     {% endfor %}
