@@ -7,15 +7,17 @@
   {% capture title %}
     {% assign page_title_suffix = ' | ' | append: site.title %}
     {% if page.type == "categories" and page.title == nil %}
-      {{ __.title.category | append: page_title_suffix }}
+      {{ __.title.categories | append: page_title_suffix }}
     {% elsif page.type == "tags" and page.title == nil %}
-      {{ __.title.tag | append: page_title_suffix }}
+      {{ __.title.tags | append: page_title_suffix }}
+    {% elsif page.type == "about" and page.title == nil %}
+      {{ __.title.about | append: page_title_suffix }}
     {% else %}
       {{ page.title | append: page_title_suffix }}
     {% endif %}
   {% endcapture %}
 {% when 'archive' %}
-  {% capture title %}{{ __.title.archive }} | {{ site.title }}{% endcapture %}
+  {% capture title %}{{ __.title.archives }} | {{ site.title }}{% endcapture %}
 {% when 'category' %}
   {% capture title %}{{ __.title.category }} | {{ site.title }}{% endcapture %}
 {% when 'tag' %}

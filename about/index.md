@@ -1,6 +1,6 @@
 ---
-title: about
 layout: page
+type: about
 ---
 
 Building...
