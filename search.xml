@@ -6,7 +6,7 @@ sitemap: false
 <search>
   {% for post in site.posts %}
     <entry>
-      <title>{{ post.title | strip_html | xml_escape }}></title>
+      <title>{{ post.title | strip_html | xml_escape }}</title>
       <url>{{ post.url | relative_url }}</url>
       <content type="text">{{ post.content | strip_html | xml_escape }}</content>
       <categories>
