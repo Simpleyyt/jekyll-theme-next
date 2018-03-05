@@ -1,0 +1,15 @@
+{% if site.gitalk.enable %}
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script type="text/javascript">
+      var gitalk = new Gitalk({
+        clientID: '54730ddf7b9420460c03',
+        clientSecret: 'c05684701b25ff1c19ea0c01ce4d80c125e0707d',
+        repo: 'colingpt.github.io',
+        owner: 'colingpt',
+        admin: ['colingpt'],
+        distractionFreeMode: true
+      });
+      gitalk.render('gitalk');
+{% endif %}
