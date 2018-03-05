@@ -1,3 +1,9 @@
+{% unless site.duoshuo_shortname
+  or site.disqus_shortname
+  or site.hypercomments_id
+  or site.gentie_productKey
+  or site.duoshuo and site.duoshuo.shortname %}
+
 {% if site.gitalk.enable %}
 
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
@@ -12,4 +18,7 @@
         distractionFreeMode: true
       });
       gitalk.render('gitalk-container');
+      
 {% endif %}
+
+{% endunless %}
