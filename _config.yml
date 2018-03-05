@@ -406,6 +406,9 @@ changyan:
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
 
+gitalk:
+  enable: true
+
 # Baidu Share
 # Available value:
 #    button | slide
