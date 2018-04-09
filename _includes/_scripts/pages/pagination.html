@@ -55,7 +55,7 @@
         $('.collection-title')[0].childNodes[1].childNodes[0].nodeValue = collection;
         document.title = "{{ __.title[page.layout] }}: " + collection + " | {{ site.title }}";
 
-        var sizes = maps[collection];
+        var sizes = maps[encodeURIComponent(collection)];
         var base = "#" + "/" + collection;
       {% else %}
         var sizes = {{ site.posts.size }}
