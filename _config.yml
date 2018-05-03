@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: Blog
 subtitle:
-description:
-author: John Doe
+description: ""
+author: Victor Orlovsky
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ru
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://viclovsky.github.io
 baseurl:
 permalink: pretty
 
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "viclovsky, QA"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -232,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/me.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -380,7 +380,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: viclovsky.github.io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -701,6 +701,7 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
+disqus_shortname: viclovsky.github.io
 
 # Assets
 css: assets/css
