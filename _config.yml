@@ -701,7 +701,7 @@ vendors:
   # https://github.com/ethantw/Han
   han:
 
-disqus_shortname: viclovsky.github.io
+disqus_shortname: viclovsky-github-io
 
 # Assets
 css: assets/css
