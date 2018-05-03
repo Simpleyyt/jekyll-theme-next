@@ -379,8 +379,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname: viclovsky.github.io
+  enable: true
+  shortname: viclovsky-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -700,8 +700,6 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
-
-disqus_shortname: viclovsky-github-io
 
 # Assets
 css: assets/css
