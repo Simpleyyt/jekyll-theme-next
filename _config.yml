@@ -77,7 +77,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "viclovsky, QA, Automation"
+keywords: "viclovsky, blog, QA, Automation, test, tests, блог, автотесты, тесты, тестирование, автоматизация тестирования"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
