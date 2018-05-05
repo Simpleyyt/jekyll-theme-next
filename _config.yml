@@ -5,8 +5,7 @@
 
 # Site
 title: Blog
-subtitle:
-description: ""
+description: "QA Automation engineer's blog"
 author: Victor Orlovsky
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ru
@@ -78,7 +77,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "viclovsky, QA"
+keywords: "viclovsky, QA, Automation"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
