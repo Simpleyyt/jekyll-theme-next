@@ -86,7 +86,7 @@ keywords: "viclovsky, QA"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2018
 
 # icon between year and author @Footer
 authoricon: heart
@@ -104,7 +104,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
