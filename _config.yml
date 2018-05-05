@@ -439,7 +439,7 @@ gitalk:
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
-#yandex_site_verification:
+yandex_site_verification: eba94a39f2bc6455
 
 # CNZZ count
 #cnzz_siteid:

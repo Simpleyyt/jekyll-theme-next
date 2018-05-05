@@ -1,5 +1,5 @@
 ---
-title: Allure attachments для автотестов на API
+title: Allure аттачи для автотестов на API
 date: 2018-05-05
 description: 
 categories:
