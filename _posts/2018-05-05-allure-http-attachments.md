@@ -1,5 +1,5 @@
 ---
-title: Allure аттачи для популярных API клиентов (Rest-assured, Retrofit, Apache HTTP Client)
+title: Allure аттачи для Rest-assured, Retrofit и Apache HTTP Client
 date: 2018-05-05
 description: 
 categories:
