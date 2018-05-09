@@ -4,8 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Blog
-description: "QA Automation engineer's blog"
+title: Блог
+subtitle: Заметки об автоматизации тестирования
+description: QA Automation engineer's blog
 author: Victor Orlovsky
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ru
@@ -107,7 +108,7 @@ seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -116,7 +117,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   about: /about/
   archives: /archives/
   tags: /tags/

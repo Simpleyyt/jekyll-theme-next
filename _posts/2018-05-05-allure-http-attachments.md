@@ -2,7 +2,8 @@
 title: Allure аттачи для Rest-assured, Retrofit и Apache HTTP Client
 date: 2018-05-05
 description: 
-categories:
+categories: 
+- Автотесты на API
 tags:
 - allure
 - httpclient

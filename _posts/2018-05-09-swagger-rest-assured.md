@@ -2,7 +2,8 @@
 title: Генерация Rest-assured клиента из документации с помощью Swagger
 date: 2018-05-09
 description: 
-categories:
+categories: 
+- Автотесты на API
 tags:
 - swagger
 - rest-assured
