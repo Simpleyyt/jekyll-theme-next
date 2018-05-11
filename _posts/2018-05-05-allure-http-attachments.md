@@ -5,6 +5,7 @@ description:
 categories: 
 - Автотесты на API
 tags:
+- java
 - allure
 - httpclient
 - okhttp
@@ -45,7 +46,7 @@ tags:
 
 Их можно найти в папке [examples](https://github.com/allure-framework/allure-java/tree/master/examples/rest-assured/src/test/resources/tpl).
 
-Также же можно добавить шаг, к которому будет прикрепляться аттачи. Для этого достаточно отнаследоваться от фильтра. 
+Также можно добавить шаг, к которому будет прикрепляться аттачи. Для этого достаточно отнаследоваться от фильтра. 
 Например для Rest-assured, такой фильтр будет выглядеть так:
 
 ```java

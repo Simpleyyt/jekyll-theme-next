@@ -5,6 +5,7 @@ description:
 categories: 
 - Автотесты на API
 tags:
+- java
 - swagger
 - rest-assured
 ---
