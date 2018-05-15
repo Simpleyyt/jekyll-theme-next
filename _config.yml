@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: Блог
+subtitle: Заметки об автоматизации тестирования
+description: QA Automation engineer's blog
+author: Victor Orlovsky
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ru
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://viclovsky.github.io
 baseurl:
 permalink: pretty
 
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "viclovsky, blog, QA, Automation, test, tests, блог, автотесты, тесты, тестирование, автоматизация тестирования"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -86,7 +86,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2018
 
 # icon between year and author @Footer
 authoricon: heart
@@ -104,11 +104,11 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -117,8 +117,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
+  categories: /categories/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -212,8 +212,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/viclovsky
 
 
 # Social Links Icons
@@ -232,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/me.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -379,8 +379,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: viclovsky-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -432,14 +432,14 @@ gitalk:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: ZBlfzyEWvo2jfa3e7cwFIx7-kfs3lIrr_9qPkgm7HtU
 
 # Google Analytics
 #google_analytics:
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
-#yandex_site_verification:
+yandex_site_verification: eba94a39f2bc6455
 
 # CNZZ count
 #cnzz_siteid:
@@ -700,7 +700,6 @@ vendors:
   # Internal version: 3.3.0
   # https://github.com/ethantw/Han
   han:
-
 
 # Assets
 css: assets/css
