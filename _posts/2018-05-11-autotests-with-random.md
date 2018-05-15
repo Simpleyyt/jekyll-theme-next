@@ -7,7 +7,7 @@ tags:
 - java
 - random
 ---
-По мотивам [блога Темы](http://artkoshelev.github.io/posts/random-test-data). 
+По мотивам [поста Темы](http://artkoshelev.github.io/posts/random-test-data). 
 **Поделюсь своим опытом.**
 
 # Когда стоит и не стоит использовать рандом в автотестах
