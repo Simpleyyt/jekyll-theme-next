@@ -13,7 +13,7 @@
 
       {% if is_post and site.toc.enable %}
         {% assign display_toc = true %}
-        {% assign str = page.content %}
+        {% assign source = page.content %}
         {% include _helper/toc.html %}
       {% endif %}
 
@@ -152,7 +152,7 @@
               {% assign list_number = page.toc_number %}
             {% endif %}
             {% assign class = 'nav' %}
-            {% assign str = page.content %}
+            {% assign source = page.content %}
             {% include _helper/toc.html %}
 
             {% if toc.size <= 1 %}

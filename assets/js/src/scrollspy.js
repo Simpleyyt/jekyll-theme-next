@@ -64,7 +64,7 @@
       .map(function () {
         var $el   = $(this)
         var href  = $el.data('target') || $el.attr('href')
-        var $href = /^#./.test(href) && $(NexT.utils.escapeSelector(href)) // Need to escape selector.
+        var $href = /^#./.test(href) && $(NexT.utils.escapeSelector(decodeURIComponent(href))) // Need to escape selector.
 
         return ($href
           && $href.length
