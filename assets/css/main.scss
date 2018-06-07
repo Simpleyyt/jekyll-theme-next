@@ -8,63 +8,9 @@ $scheme    : '{{ site.scheme | default: Muse }}';
 $variables : base $scheme custom;
 $mixins    : base $scheme custom;
 
-$jekyll-config-map : (
-  {% assign exclude = 'source, time, data, documents, github, related_posts, \
-    posts, pages, static_files, html_pages, html_files, collections, \
-    categories, tags, kramdown' | split: ', ' %}
-  {% assign names = '' | split: '' %}
-  {% assign values = '' | split: '' %}
-  {% assign levels = '' | split: '' %}
-  {% assign keys = '' | split: '' %}
 
-  {% for name in site %}
-    {% if exclude contains name %}
-      {% continue %}
-    {% endif %}
-    {% assign names = names | push: name %}
-    {% assign values = values | push: site[name] %}
-    {% assign levels = levels | push: 0 %}
-  {% endfor %}
-
-  {% for i in (1..1000) %}
-    {% if names.size == 0 %}
-      {% break %}
-    {% endif %}
-
-    {% assign name = names | last %}
-    {% assign value = values | last %}
-    {% assign level = levels | last %}
-
-    {% assign names = names | pop %}
-    {% assign values = values | pop %}
-    {% assign levels = levels | pop %}
-
-    {% if name == '' or name == nil %}
-      {% continue %}
-    {% endif %}
-
-    {% assign keys = keys | slice: 0, level %}
-    {% assign keys = keys | push: name %}
-
-    {% assign value_type = value | jsonify | slice: 0 %}
-    {% if value_type == '{' %}
-      {% assign level = level | plus: 1 %}
-      {% if level < 3 %}
-        {% for name_value in value %}
-          {% assign names = names | push: name_value[0] %}
-          {% assign values = values | push: name_value[1] %}
-          {% assign levels = levels | push: level %}
-        {% endfor %}
-      {% endif %}
-    {% elsif value_type != '[' %}
-      {% assign value = value | jsonify %}
-      {% if value != '{}' and value != '[]' %}
-        '{{ keys | join: "." }}': {{ value }},
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-);
-
+{% include _helper/config_map.html %}
+$jekyll-config-map : {{ config_map }};
 
 @function jekyll-config($key) {
   @return map-get($jekyll-config-map, $key);
