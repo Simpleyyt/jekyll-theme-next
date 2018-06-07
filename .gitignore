@@ -8,3 +8,4 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+/vendor
