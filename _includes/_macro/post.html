@@ -288,7 +288,7 @@
           </div>
           <!--/noindex-->
         {% elsif post.excerpt  %}
-          {{ post.excerpt }}
+          {% include _macro/post-excerpt.html %}
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="{{ post.url | relative_url }}{% if site.scroll_to_more %}#{{ __.post.more }}{% endif %}" rel="contents">
@@ -311,11 +311,11 @@
           {% if post.type == 'picture' %}
             <a href="{{ post.url | relative_url }}">{{ post.content }}</a>
           {% else %}
-            {{ post.content }}
+            {% include _macro/post-content.html %}
           {% endif %}
         {% endif %}
       {% else %}
-        {{ post.content }}
+        {% include _macro/post-content.html %}
       {% endif  %}
     </div>
 
