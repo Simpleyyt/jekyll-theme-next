@@ -1,9 +1,10 @@
 {% comment %} lineno(source) {% endcomment %}
 {% assign block_begin = '<pre class="highlight">' %}
 {% assign block_end = '</pre>' %}
-{% assign newline = newline | replace: ' ', '' %}
 
 {% comment %} This tag isn't in the site which is built locally. I don't know why? {% endcomment %}
+{% assign div_tag_begin = '' %}
+{% assign div_tag_end = '' %}
 {% unless source contains '<div class="highlight">' %}
   {% assign div_tag_begin = '<div class="highlight">' %}
   {% assign div_tag_end = '</div>' %}
@@ -11,8 +12,7 @@
 
 {% assign blocks = source | split: block_begin | shift %}
 {% for block in blocks %}
-  {% assign tmp = block | split: block_end %}
-  {% capture code_content %}{{ block_begin }}{{ tmp[0] }}{{ block_end }}{% endcapture %}
+  {% assign code_content = block | split: block_end | first | prepend: block_begin | append: block_end %}
   {% assign line_count = code_content | newline_to_br | split: '<br />' | size | minus: 1 %}
   {% assign lineno = '' %}
   {% for no in (1..line_count) %}
