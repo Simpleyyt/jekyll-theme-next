@@ -208,6 +208,8 @@
           {% endif %}
 
           {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
+            {% assign source = post.content %}
+            {% include _helper/wordcount.html %}
             <div class="post-wordcount">
               {% if site.post_wordcount.wordcount %}
                 {% unless site.post_wordcount.separated_meta %}
@@ -220,7 +222,7 @@
                   <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
                 {% endif %}
                 <span title="{{ __.post.wordcount }}">
-                  {{ post.content | number_of_words }}
+                  {{ wordcount }}
                 </span>
               {% endif %}
 
@@ -236,7 +238,7 @@
                   <span class="post-meta-item-text">{{ __.post.min2read }}</span>
                 {% endif %}
                 <span title="{{ __.post.min2read }}">
-                  {{ post.content | number_of_words | divided_by: 200 }}
+                  {{ wordcount | divided_by: 200 }}
                 </span>
               {% endif %}
             </div>
