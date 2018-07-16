@@ -212,9 +212,9 @@
             {% include _helper/wordcount.html %}
             <div class="post-wordcount">
               {% if site.post_wordcount.wordcount %}
-                {% unless site.post_wordcount.separated_meta %}
+                {% if site.post_wordcount.separated_meta %}
                   <span class="post-meta-divider">|</span>
-                {% endunless %}
+                {% endif %}
                 <span class="post-meta-item-icon">
                   <i class="fa fa-file-word-o"></i>
                 </span>
@@ -238,7 +238,7 @@
                   <span class="post-meta-item-text">{{ __.post.min2read }}</span>
                 {% endif %}
                 <span title="{{ __.post.min2read }}">
-                  {{ wordcount | divided_by: 200 }}
+                  {{ wordcount | divided_by: 200 }} min
                 </span>
               {% endif %}
             </div>
