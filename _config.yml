@@ -7,7 +7,7 @@
 title: 绮丽世界
 subtitle:
 description:Hello World
-author: Chu xueyou
+author: Elegant Chu
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -89,7 +89,7 @@ rss:
 # Specify the date when the site was setup
 #since: 2018
 
-# icon between year and author @Footer
+# icon between year and author @xueyou
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
@@ -117,11 +117,11 @@ index_with_subtitle: false
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
-  home: /
+  首页: /
   #categories: /categories/
   #about: /about/
-  archives: /archives/
-  tags: /tags/
+  存档: /archives/
+  标签: /tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -228,7 +228,8 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  微博: https://weibo.com/p/1005051664189572/home?from=page_100505&mod=TAB&is_all=1#place
+  简书：https://www.jianshu.com/u/8b2f8238b054
 
 
 # Sidebar Avatar
