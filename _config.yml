@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: lian的小屋
 subtitle:
 description:
-author: John Doe
+author: 且将酒作歌
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
