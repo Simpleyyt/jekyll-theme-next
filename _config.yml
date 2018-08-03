@@ -4,18 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: lian的小屋
 subtitle:
 description:
-author: John Doe
+author: 且将酒作歌
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url:
-baseurl:
+baseurl:https:
 permalink: pretty
 
 # Pagination
@@ -710,3 +710,5 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
+repository: lian2018/lian2018.github.io
