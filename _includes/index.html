@@ -3,8 +3,10 @@
 
 <section id="posts" class="posts-expand">
   {% for post in posts %}
-    {% assign is_index = true %}
-    {% include _macro/post.html %}
+    {% if post.notshow != true %}
+      {% assign is_index = true %}
+      {% include _macro/post.html %}
+    {% endif %}
   {% endfor %}
 </section>
 
