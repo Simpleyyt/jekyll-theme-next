@@ -32,7 +32,7 @@ Here are some important details. I had to modify the Ruby library for Markdown i
 my ```_config.yml``` file. Now I'm using redcarpet so the corresponding line in the
 configuration file is: ```markdown: redcarpet```
 
-To load the MathJax javascript, I added the following lines in my layout ```page.html```
+To load the MathJax javascript, I added the following lines in my layout ```post.html```
 (located in my folder ```_layouts```)
 
 {% highlight r %}
@@ -41,7 +41,24 @@ To load the MathJax javascript, I added the following lines in my layout ```page
 </script>
 {% endhighlight %}
 
-Of course you can choose a different file location in your jekyll layouts.
+Of course you can choose a different file location in your jekyll layouts. 
+
+Note that by default, the **tex2jax** preprocessor defines the
+LaTeX math delimiters, which are ```\\(...\\)``` for in-line math, and ```\\[...\\]``` for
+displayed equations. It also defines the TeX delimiters ```$$...$$``` for displayed
+equations, but it does not define ```$...$``` as in-line math delimiters. To enable in-line math delimiter with ```$...$```, please use the following configuration:
+
+{% highlight r %}
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+{% endhighlight %}
 
 
 ### A Couple of Examples
@@ -49,13 +66,6 @@ Of course you can choose a different file location in your jekyll layouts.
 Here's a short list of examples. To know more about the details behind MathJax, you can
 always checked the provided documentation available at
 [http://docs.mathjax.org/en/latest/](http://docs.mathjax.org/en/latest/)
-
-I'm assuming you are familiar with LaTeX. However, you should know that MathJax does not
-have the exactly same behavior as LaTeX. By default, the **tex2jax** preprocessor defines the
-LaTeX math delimiters, which are ```\\(...\\)``` for in-line math, and ```\\[...\\]``` for
-displayed equations. It also defines the TeX delimiters ```$$...$$``` for displayed
-equations, but it does not define ```$...$``` as in-line math delimiters. Fortunately,
-you can change these predefined specifications if you want to do so.
 
 Let's try a first example. Here's a dummy equation:
 
