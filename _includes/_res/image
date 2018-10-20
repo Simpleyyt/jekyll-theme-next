@@ -1,0 +1,1 @@
+![{{ include.name }}]({{ site.url }}/assets/posts/{{ page.path | remove_first:"_posts/" | remove_first:".md" }}/images/{{ include.name }})
