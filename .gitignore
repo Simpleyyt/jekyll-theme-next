@@ -1,6 +1,8 @@
 _site/*
 _theme_packages/*
 
+Gemfile.lock
+
 Thumbs.db
 .DS_Store
 
