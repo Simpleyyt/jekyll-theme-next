@@ -387,6 +387,32 @@ disqus:
   # count need to be false when hide is true
   hide: false
 
+# <wildfire>
+wildfire:
+  enable: false
+  # version - It's recommended to use the following versions.
+  loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
+  useDev: true
+  version: 0.5.6 
+  # database config
+  databaseProvider: firebase # or wilddog
+  firebase: # your firebase config goes here ↓
+    apiKey: 
+    authDomain:
+    databaseURL:
+    projectId:
+    storageBucket:
+    messagingSenderId:
+  wilddog: # your wilddog config goes here ↓
+    siteId:
+  # other configs
+  theme: light # or dark
+  locale: en # or other locales, e.g. zh-CN
+  defaultAvatarURL: 
+# Any question? 
+# Raise an issue here: https://github.com/cheng-kang/wildfire/issues
+# </wildfire>
+
 # Hypercomments
 #hypercomments_id:
 

@@ -146,6 +146,16 @@
                         data-disqus-identifier="{{ post.url }}" itemprop="commentCount"></span>
                 </a>
               </span>
+            {% elsif site.wildfire.enable %}
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count wf-count-unit" wf-page-url="{{ post.url | absolute_url }}" itemprop="commentCount"></span>
+                </a>
+              </span>
             {% elsif site.hypercomments_id %}
             <!--noindex-->
               <span class="post-comments-count">
