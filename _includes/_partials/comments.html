@@ -32,6 +32,8 @@
       <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
     {% elsif site.changyan.appid and site.changyan.appkey %}
       <div id="SOHUCS"></div>
+    {% elsif site.wildfire.enable %}
+      <div class="wildfire_thread"></div>
     {% endif %}
   </div>
 {% endif %}
