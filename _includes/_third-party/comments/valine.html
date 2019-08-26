@@ -1,0 +1,17 @@
+{% unless site.duoshuo_shortname
+  or site.disqus_shortname
+  or site.hypercomments_id
+  or site.gentie_productKey
+  or site.duoshuo and site.duoshuo.shortname %}
+{% if site.valine.enable %}
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script>
+    new Valine({
+        el: '#comments',
+        app_id: '{{ site.valine.appid }}',  
+        app_key: '{{ site.valine.appkey }}', 
+        placeholder:'{{ site.valine.placeholder }}'    
+    });</script>
+{% endif %}
+{% endunless %}

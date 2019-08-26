@@ -445,8 +445,8 @@ gitalk:
 # Support for valine comments system.  
 valine:
   enable: false
-  appid: 
-  appkey: 
+  appid: k7xSshfgijq6z206P2xMMj24-ijGaoHsz
+  appkey: 9YgVFuihluSWMtWoLgeXuL
   placeholder: "评论"
 
 # Baidu Share
