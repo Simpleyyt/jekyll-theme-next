@@ -441,6 +441,13 @@ gitalk:
   repo: # colingpt.github.io
   owner: # colingpt
   admin: # colingpt
+  
+# Support for valine comments system.  
+valine:
+  enable: false
+  appid: 
+  appkey: 
+  placeholder: "评论"
 
 # Baidu Share
 # Available value:
