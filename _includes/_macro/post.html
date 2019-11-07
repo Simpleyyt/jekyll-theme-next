@@ -1,5 +1,6 @@
 {% comment %} post(post, is_index, post_extra_class) {% endcomment %}
 
+  {% assign headlessPost = false %}
   {% if 'quote, picture' contains post.type %}
     {% assign headlessPost = true %}
   {% endif %}
