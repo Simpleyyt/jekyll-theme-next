@@ -2,7 +2,7 @@
 type: photo
 title: Gallery Post
 date: 2014-11-18 15:45:20
-category: Photo
+category: tutorial
 photos:
 - http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg
 - http://ww3.sinaimg.cn/mw690/81b78497jw1emfgwjrh2pj21hc0u01g3.jpg
