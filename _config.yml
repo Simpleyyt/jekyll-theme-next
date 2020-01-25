@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: kws981024
+subtitle: kws981024's hacking note
+description: INHA univ. Field : Pwn, Web, Rev
+author: kws981024
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: http://Kangwoosun.github.io
 baseurl:
 permalink: pretty
 
