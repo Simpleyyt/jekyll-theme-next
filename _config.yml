@@ -213,8 +213,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+#   LinkLabel: Link
   GitHub: https://github.com/ChenZhao44
   Zhihu: https://www.zhihu.com/people/zhao-chen-7
 
@@ -276,7 +276,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button
   scrollpercent: false
