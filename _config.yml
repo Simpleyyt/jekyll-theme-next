@@ -6,10 +6,10 @@
 # Site
 title: CZ Blog
 subtitle: Nullspace
-description: Quantum and more
+description: quantum and more...
 author: Chen Zhao
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: zh-Hans
+language: en
 date_format: '%Y-%m-%d'
 
 # URL
@@ -79,15 +79,15 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "CZ, Quantum Computing, Machine Learning"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2020
 
 # icon between year and author @Footer
 authoricon: heart
@@ -234,7 +234,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+#avatar: 
 
 
 # Table Of Contents in the Sidebar
@@ -265,9 +265,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+#   display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
