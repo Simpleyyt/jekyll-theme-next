@@ -225,7 +225,7 @@ social:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
@@ -234,8 +234,8 @@ social_icons:
 
 
 # Sidebar Avatar
-# in directory: /assets/images/avatar.gif
-#avatar: 
+# in directory: /assets/images/avatar.png
+avatar: /assets/images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -276,7 +276,7 @@ sidebar:
   offset_float: 0
 
   # Back to top in sidebar
-  b2t: true
+  b2t: false
 
   # Scroll percent label in b2t button
   scrollpercent: false
