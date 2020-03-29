@@ -3,7 +3,12 @@ layout: post
 title: "我的灵魂永远与你同在"
 date: 2020-02-29 19:53
 category: [杂食脑洞]
+tag: acg
 ---
+
+From Eiji to Ash
+
+<!-- more -->
 
 你说我和普通人不一样，有一点我可以认同，那就是我不畏惧死亡。
 <br>
