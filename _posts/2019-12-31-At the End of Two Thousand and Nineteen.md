@@ -90,9 +90,9 @@ OP从动画到漫画再到动画，一共看不下五遍了，每一遍都会感
 ## 画画
 今年只认真画了 **2** 个东西。<br/>
 
-![临也生贺](/assets/2019-12-31/Izaya.jpg)<br/>
+![临也生贺](/assets/images/2019-12-31/Izaya.jpg)<br/>
 
-![Bananafish](/assets/2019-12-31/Bananafish.jpg)
+![Bananafish](/assets/images/2019-12-31/Bananafish.jpg)
 <br/>
 
 画画好难哦，到现在还是只会临摹，创作能力为零。
