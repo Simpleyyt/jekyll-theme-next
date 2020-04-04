@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "ゴミDiary 01: Now I know how to meet ladies"
+title: "Now I know how to meet ladies"
 date: 2019-11-04 21:46
-categories: [学习]
-tags: [html]
+categories: [勉強中]
+tags: [html, 前端]
 ---
+
 For your information, I know HTML = I know **h**ow **t**o **m**eet **l**adies.
 
----
+<!-- more -->
 
 今天是实习公司给我正经工作内容的第一天，忙得手指抽筋。
 但再怎么忙，鱼还是要摸的。
