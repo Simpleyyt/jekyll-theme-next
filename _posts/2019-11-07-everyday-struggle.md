@@ -2,11 +2,13 @@
 layout: post
 title: "Everyday Struggle-喝不到咖啡偏头痛的社畜和喝太多咖啡心动过速的社畜究竟哪一个比较可怜"
 date: 2019-11-07 14:46
-categories: [杂食脑洞]
-tags: [咖啡]
+categories: [社畜生活]
+tags: [intern, 咖啡]
 ---
 
 今天是新实习的第10个工作日，我喝下了第20杯胶囊咖啡。
+
+<!-- more -->
 
 <br><br>刚才又在茶水间挑胶囊，发现我已经把一整盒Nespresso每个口味都尝过了。**害怕**。
 

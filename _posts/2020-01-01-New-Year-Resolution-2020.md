@@ -2,14 +2,14 @@
 layout: post
 title: "2020 New Year Resolution"
 date: 2020-01-01 13:09
-category: [随便写写]
+categories: [Life? What Life?]
 tags: [to-do]
-
 ---
 
 Let's pray they all come true.
 
----
+<!-- more -->
+
 抄一下 Evernote 的作业。
 
 ## 工作

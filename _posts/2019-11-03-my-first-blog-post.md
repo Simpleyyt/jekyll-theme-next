@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "first post 聊聊火影"
-description: 几句火学
 date: 2019-11-03 21:00:00
 categories: [杂食脑洞]
 tags: [acg, 火影]
