@@ -5,7 +5,7 @@
 
 # Site
 title: Yellow ゴミ
-subtitle:
+subtitle: 黄色废料
 description: 今こそが永遠だよ。そう思わない？
 author: Alex
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -213,8 +213,10 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  Twitter: https://twitter.com/alexxxfake
+  GitHub: https://github.com/yellowgomi
+  Douban: 
 
 
 # Social Links Icons
@@ -228,7 +230,8 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  Weibo: weibo
+  #Weibo: weibo
+  Douban: douban
 
 
 # Sidebar Avatar
