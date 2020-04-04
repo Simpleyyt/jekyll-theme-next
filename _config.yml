@@ -19,17 +19,17 @@ baseurl:
 permalink: pretty
 
 # Pagination
-paginate: 10
-#paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#category:
-  #paginate: 10
-  #paginate_path: "/page:num/"
-#tag:
-  #paginate: 10
-  #paginate_path: "/page:num/"
+paginate: 5
+paginate_path: "/page:num/"
+archive:
+  paginate: 10
+  paginate_path: "/page:num/"
+category:
+  paginate: 10
+  paginate_path: "/page:num/"
+tag:
+  paginate: 10
+  paginate_path: "/page:num/"
 
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
@@ -90,7 +90,7 @@ rss:
 since: 2019
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: star
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
@@ -216,7 +216,7 @@ font:
 social:
   Twitter: https://twitter.com/alexxxfake
   GitHub: https://github.com/yellowgomi
-  Douban: 
+  Douban: https://www.douban.com/people/give_me_a_mask/
 
 
 # Social Links Icons
@@ -231,7 +231,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   #Weibo: weibo
-  Douban: douban
+  Douban: seedling
 
 
 # Sidebar Avatar
@@ -320,8 +320,8 @@ post_meta:
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -482,7 +482,7 @@ gitalk:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
