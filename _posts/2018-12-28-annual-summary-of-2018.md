@@ -162,20 +162,8 @@ FAIL, naturally.
 
 我这样的拍照菜鸡，捂热相纸之前永远不知道自己能拍出多丑的照片。但偶尔也能拍到几张顺眼的照片。
 
-![奈良的鹿](/assets/images/2018/nara-deer.jpg)
-奈良的鹿。
-
-![京都的街](/assets/images/2018/kyoto-street.jpg)
-京都的街。
-
-![北京的墙](/assets/images/2018/beijing-street.jpg)
-北京的墙。
-
-![五道营胡同口](/assets/images/2018/beijing-street2.jpg)
-五道营胡同口。
-
-![香山](/assets/images/2018/xiangshan.jpg)
-香山。
+奈良的鹿，京都，北京，五道营，香山。
+![拍立得](/assets/images/2018/nara-deer.jpg)
 
 ---
 
