@@ -2,12 +2,13 @@
 layout: post
 title: "也许你我终将行踪不明"
 date: 2020-02-24 23:55
-category: [杂食脑洞]
+categories: [杂食脑洞]
+tags: [火影, acg, excerpt]
 ---
 
 但是你该知道我曾为你动情。
 
----
+<!-- more -->
 
 他忽而抬手，将柱间抱住了。
 
