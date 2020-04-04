@@ -8,7 +8,8 @@ tags: [to-do]
 
 Let's pray they all come true.
 
----
+<!-- more -->
+
 抄一下 Evernote 的作业。
 
 ## 工作
