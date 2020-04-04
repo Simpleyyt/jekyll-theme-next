@@ -3,7 +3,7 @@ layout: post
 title: "关于老虚和切嗣"
 date: 2019-11-09 20:35
 categories: [杂食脑洞]
-tags: [型月, 切嗣]
+tags: [型月, Emiya]
 ---
 
 半年前的硬盘论文。后天切嗣papa生日，搬来凑个生日快乐。
