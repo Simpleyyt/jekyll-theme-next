@@ -2,7 +2,7 @@
 layout: post
 title: "2020 New Year Resolution"
 date: 2020-01-01 13:09
-categories: [Life? What Life?]
+categories: ["Life? What Life?"]
 tags: [to-do]
 ---
 

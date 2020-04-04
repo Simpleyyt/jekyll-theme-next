@@ -2,8 +2,8 @@
 layout: post 
 title: "At the End of Two Thousand and Nineteen" 
 date: 2019-12-31 23:59:59
-categories: [Life? What life?]
-tags: [life]
+categories: ["Life? What Life?"]
+tags: [life, read, movie, game]
 ---
 
 每到写年终总结的时候才会反省这一年又没做什么。
