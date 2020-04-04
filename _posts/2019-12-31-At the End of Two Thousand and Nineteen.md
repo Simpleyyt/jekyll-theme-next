@@ -2,13 +2,15 @@
 layout: post 
 title: "At the End of Two Thousand and Nineteen" 
 date: 2019-12-31 23:59:59
-category: [随便写写]
+categories: [Life? What life?]
+tags: [life]
 ---
 
 每到写年终总结的时候才会反省这一年又没做什么。
 ——沃兹基朔德
 
----
+<!-- more -->
+
 # 输入
 ## 读书
 72是豆瓣标记的数量，自己拉了个表，除去脆皮鸭/漫画/绘本，实际上读过的书是**44本**。
