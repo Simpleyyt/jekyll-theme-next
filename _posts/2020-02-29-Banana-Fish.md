@@ -2,11 +2,11 @@
 layout: post
 title: "我的灵魂永远与你同在"
 date: 2020-02-29 19:53
-category: [杂食脑洞]
-tag: acg
+categories: [杂食脑洞]
+tags: [acg, excerpt]
 ---
 
-From Eiji to Ash
+*From Eiji to Ash.*
 
 <!-- more -->
 
