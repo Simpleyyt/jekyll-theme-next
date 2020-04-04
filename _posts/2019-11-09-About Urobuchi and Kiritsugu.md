@@ -2,7 +2,7 @@
 layout: post
 title: "关于老虚和切嗣"
 date: 2019-11-09 20:35
-category: [杂食脑洞]
+categories: [杂食脑洞]
 tags: [型月, 切嗣]
 ---
 
