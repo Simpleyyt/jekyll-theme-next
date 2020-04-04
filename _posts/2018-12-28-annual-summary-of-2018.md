@@ -3,7 +3,7 @@ layout: post
 title: 2018 年终总结
 date: 2018-12-28 14:59:13
 categories: [LifeCrash]
-tags: [life]
+tags: [life, summary]
 ---
 
 搬运自豆瓣。
