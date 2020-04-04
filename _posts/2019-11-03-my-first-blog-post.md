@@ -2,8 +2,8 @@
 layout: post
 title:  "first post 聊聊火影"
 date: 2019-11-03 21:00:00
-categories: [杂食脑洞]
-tags: [acg, 火影]
+category: [杂食脑洞]
+tag: [acg, 火影]
 ---
 
 第一条post，瞎几把写写当测试。
