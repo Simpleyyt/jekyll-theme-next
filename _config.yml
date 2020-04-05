@@ -427,6 +427,10 @@ changyan:
   enable: false
   appid:
   appkey:
+  
+# valine
+valine:
+  enable: true
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc

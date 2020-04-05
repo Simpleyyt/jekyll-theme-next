@@ -193,6 +193,24 @@
                   <span id="url::{{ post.url | absolute_url }}" class="cy_cmt_count" data-xid="{{ post.url }}" itemprop="commentsCount" ></span>
                 </a>
               {% endif %}
+            {% elsif site.valine.enable %}
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+                <div id="vcomments"></div>
+                <script>
+                    new Valine({
+                        el: '#vcomments',
+                        appId: '5sM8QWtSSa6x4XW3KjfWCNR1-gzGzoHsz',
+                        appKey: 'te06L45sea61p2CsibpocnKb',
+                        notify: true, 
+                        verify: false, 
+                        avatar:'mp', 
+                        placeholder: 'Hi Jarvis, tell me everything.' 
+                    })
+                </script>
             {% endif %}
           {% endif %}
 
