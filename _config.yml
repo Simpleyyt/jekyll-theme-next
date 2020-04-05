@@ -392,7 +392,7 @@ disqus:
 
 # <wildfire>
 wildfire:
-  enable: false
+  enable: true
   # version - It's recommended to use the following versions.
   loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
   useDev: true
@@ -400,17 +400,19 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: 
-    authDomain:
-    databaseURL:
-    projectId:
-    storageBucket:
-    messagingSenderId:
+    apiKey: AIzaSyAI69cWgRz0H6wK9aJySbEW5N3Bh-A5eFU
+    authDomain: yellowgomi-26895.firebaseapp.com
+    databaseURL: https://yellowgomi-26895.firebaseio.com
+    projectId: yellowgomi-26895
+    storageBucket: yellowgomi-26895.appspot.com
+    messagingSenderId: 525910587408
+    appId: 1:525910587408:web:5d1d1044b3149fcc3b3295
+    measurementId: G-JT26KJE96P
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
   theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
+  locale: zh-CN # or other locales, e.g. zh-CN
   defaultAvatarURL: 
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
