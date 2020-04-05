@@ -413,7 +413,7 @@ wildfire:
   # other configs
   theme: light # or dark
   locale: zh-CN # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
+  defaultAvatarURL: /assets/images/commentAvatar.jpg
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
