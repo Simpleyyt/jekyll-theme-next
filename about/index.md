@@ -2,7 +2,6 @@
 layout: page
 type: about
 ---
-
 # Education
 **Cloud DevOps Engineer, Udacity** (Dec 2019 ~ Apr 2020)
 - Relevant Coursework: ”Deploy Infrastructure as Code (IAC)”, ”Build CI/CD Pipelines, Monitoring
