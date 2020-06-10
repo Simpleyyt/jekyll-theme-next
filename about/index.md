@@ -2,7 +2,9 @@
 layout: page
 type: about
 ---
-# Education
+# About Me
+
+## Education
 **Cloud DevOps Engineer, Udacity** (Dec 2019 ~ Apr 2020)
 - Relevant Coursework: ”Deploy Infrastructure as Code (IAC)”, ”Build CI/CD Pipelines, Monitoring
 Logging”, ”Microservices at Scale using AWS Kubernetes”
@@ -16,7 +18,7 @@ Logging”, ”Microservices at Scale using AWS Kubernetes”
 **B.S. in Materials Science and Engineering. Seoul National University** (Mar 2002 ~ Aug 2009)
  
 
-# Experience
+## Experience
 - Quality Control Manager, POSCO in South Korea (Feb. 2010 ~ May 2015)
 - Main Role: 
   - Enhancement of the internal and external quality of wire rod products
@@ -29,7 +31,7 @@ Logging”, ”Microservices at Scale using AWS Kubernetes”
   - New cooling process decreased idle time from 3 days to 1 hour, achieving $0.5M estimated financial result
 
 
-# Skills
+## Skills
 **Programming:** Python, JavaScript, HTML/CSS
 
 **Python Data Science Stack:** Pandas, Numpy, Matplotlib, Scikit-learn, PySpark, Keras, Seaborn, Plotly, Python NLTK
@@ -40,7 +42,7 @@ Logging”, ”Microservices at Scale using AWS Kubernetes”
 
 **Version Control:** Git, GitHub
 
-# Certifications
+## Certifications
 - [AWS Certified Solutions Architect – Associate][AWS SAA-C02]
 - [Cloud DevOps Engineer Nanodegree][Udacity DevOps]
 - [AWS Certified Cloud Practitioner][AWS CLF-C01]
