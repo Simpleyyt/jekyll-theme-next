@@ -6,7 +6,7 @@ description: Implement ZX-calculus with Julia.
 
 Quantum computing uses the principles of quantum mechanics for computing. To describe quantum algorithms, we often use the quantum circuit model which is the analog of the classical logic circuit model. Quantum circuits are consist of a set of basic quantum gates such as Pauli X, Y, Z gate, Hadamard gate, T gate, CNOT gate.
 
-In general, there will be lots of equivalent quantum circuits representing the same operation. At the viewpoint of quantum hardware, one wishes to find the circuit that minimizing the usage of hardware resources. Unfortunately, finding the most desired circuit is a very hard problem in computational complexity, as checking the equivalence between two quantum circuits is coQMA-hard (quantum analog of coNP). Despite this, we still have some heuristic efficient algorithms for quantum circuits simplification. In this blog post, I will introduce a powerful tool for this problem, ZX-calculus.
+In general, there will be lots of equivalent quantum circuits representing the same operation. At the viewpoint of quantum hardware, one wishes to find the circuit that minimizing the usage of hardware resources. Unfortunately, finding the most desired circuit is a very hard problem in computational complexity, as checking the equivalence between two quantum circuits is coQMA-hard (quantum analog of coNP) [^1],[^2]. Despite this, we still have some heuristic efficient algorithms for quantum circuits simplification. In this blog post, I will introduce a powerful tool for this problem, ZX-calculus.
 
 A quantum circuit is a graph representing tensor products and matrices products. For example, this is the circuits representing 
 $$
@@ -16,12 +16,23 @@ $$
 
 Also, quantum circuits can be regarded as a special type of tensor network. In ZX-calculus, we introduce two kinds of tensors, Z-spiders, and X-spiders. Tensor networks that consist of these tensors are called ZX-diagrams. As all basic quantum gates can be represented by ZX-diagrams, we can transform all quantum circuits to ZX-diagrams. 
 ![](\assets\blog_res\ZX\zxd1.svg)
-Moreover, by the definition of Z-spiders and X-spiders, there are basic equivilant rules with which one can simplify ZX-diagrams. 
+Moreover, by the definition of Z-spiders and X-spiders, there are basic equivalent rules with which one can simplify ZX-diagrams. 
 ![rules](\assets\blog_res\ZX\rules.png)
+After simplifying ZX-diagrams, we should transform them back to circuits. In the paper [^3], they developed algorithms for the above scheme. 
 
-After simplifying ZX-diagrams, we should transform them back to circuits. In the paper [arXiv:1902.03178](https://arxiv.org/abs/1902.03178), they developed algorithms for the above scheme. We will use Julia to implement this scheme for simplifying quantum circuits.
+During GSoC 2020, I'm going to achieve a Julia implementation of ZX-calculus. In the following sections, I will explain the reasons and methods briefly for this project.
 
-## Data structures
+## Proposal for this GSoC project
+
+The main proposal of this project is to implement ZX-calculus and its related algorithm in Julia language. And we will release a Julia package `ZXCalculus.jl`. There exists a Python implementation of ZX-calculus, [`PyZX`](https://github.com/Quantomatic/pyzx). Like `PyZX`, `ZXCalculus.jl` will provide APIs for rewriting ZX-diagrams, extracting circuits from ZX-diagrams, simplifying circuits. Visualization of ZX-diagrams will be available in `ZXCalculus.jl` too. Most functions of `PyZX` will be implemented in `ZXCalculus.jl`. Besides these, we will integrate `ZXCalculus.jl` in the quantum compiler [`YaoLang.jl`](https://github.com/QuantumBFS/YaoLang.jl) and implement a compiling level circuits simplification engine. In `YaoLang.jl`, one can define hybrid quantum programs with classical information (e.g. classical parameters, classical control flows). These quantum programs will be transformed into intermediate representations, `YaoIR`s, which contain quantum circuits. These circuits will be simplified with `ZXCalculus.jl`. Then `YaoIR`s will be compiled to backend instructions, like QASM or the simulator `Yao.jl`.
+
+For the efficiency of `YaoLang.jl`, a pure Julia implementation of ZX-calculus is necessary. And this is the start of `ZX-calculus.jl`.
+
+## Methods
+
+The circuits extraction method is a canonical method of ZX-calculus based circuits simplification algorithms. I will mainly discuss how I implement this method.
+
+### Data structures
 
 To implement these algorithms, we need to implement data structures for storing ZX-diagrams and rules on how ZX-diagrams change. A ZX-diagram can be regarded as a multigraph with extra information on its vertices. Each vertex is one of Z-spider, X-spider, or H-box. In the original ZX-diagrams, open edges are allowed. For simplicity, we added 2 special kinds of vertices, input boundary, and output boundary, for recording these edges. We use the adjacency list representation for storing multigraphs. An adjacency list is stored as `Dict` whose keys are the ids of vertices. 
 ```julia
@@ -29,7 +40,7 @@ struct Multigraph{T<:Integer} <: AbstractMultigraph{T}
     adjlist::Dict{T, Vector{T}}
 end
 ```
-Because we need to rewrite multigraphs with ZX-calculus rules, it will be more convenient to fix vertices ids. So we use `Dict` instead of `Array`. There are phases for Z-spiders and X-spiders. We need another Dict for storing these phases. The data struct of ZX-diagram is similar as follow:
+Because we need to rewrite multigraphs with ZX-calculus rules, it will be more convenient to fix vertices ids. So we use `Dict` instead of `Array`. There are phases for Z-spiders and X-spiders. We need another Dict for storing these phases. The data struct of ZX-diagram is similar to follow:
 ```julia
 struct ZXDiagram{T<:Integer, P} <: AbstractZXDiagram{T, P}
     mg::Multigraph{T}
@@ -51,7 +62,7 @@ end
 
 From now, we have built up data structs we need.
 
-## Rewriting rules
+### Rewriting rules
 
 To simplify ZX-diagrams, we need to implement rewriting rules in ZX-calculus. There are two steps, matching rules and rewriting ZX-diagrams with corresponding rules. We used the holy traits tricks for Julia multiple dispatch for matching and rewriting. The APIs are like these:
 ```julia
@@ -64,7 +75,7 @@ struct Match{T<:Integer}
     vertices::Vector{T}
 end
 ```
-And `rewrite!` will try to use a rule to rewrite a ZX-diagram on the all matched vertices. Since it is possible that some matched vertices become unsatisfied with the corresponding rule after rewriting some vertices. We need to check whether a rule is still available on matched vertices. 
+And `rewrite!` will try to use a rule to rewrite a ZX-diagram on the all matched vertices. Since some matched vertices may become unsatisfied with the corresponding rule after rewriting some vertices. We need to check whether a rule is still available on matched vertices. 
 ```julia
 check_rule(r::AbstractRule, zxd::AbstractZXDiagram{T, P}, vs::Vector{T}) where {T, P}
 ```
@@ -81,19 +92,19 @@ function simplify!(r::AbstractRule, zxd::ZXDiagram)
 end
 ```
 
-In the simplification scheme of [arXiv:1902.03178](https://arxiv.org/abs/1902.03178), we need to convert a ZX-diagram to a graph-like ZX-diagram with rules i1, i2, h and f. Then simplify the graph-like ZX-diagram with local complementary rule and pivoting rule. We can accomplish these steps with above functions. Simplified graph-like ZX-diagrams will be only small skeletons comparing to original large circuits. The only thing remained is extracting circuits from ZX-diagrams.
+In the simplification scheme of [^3], we need to convert a ZX-diagram to a graph-like ZX-diagram with rules i1, i2, h and f. Then simplify the graph-like ZX-diagram with local complementary rule and pivoting rule. We can accomplish these steps with the above functions. Simplified graph-like ZX-diagrams will be only small skeletons comparing to original large circuits. The only thing remained is extracting circuits from ZX-diagrams.
 
-## Circuit extraction
+### Circuit extraction
 
 This is the most complicated part of the simplification scheme. For more detail, one can read the original paper. I will only explain the circuit extraction algorithm briefly.
 
 There is a property for any ZX-diagram of a quantum circuit. That is we can define a g-flow on it. With a g-flow, we can know the order of all spiders. The rules we used for simplifying the ZX-diagram will preserve this good property. It gives us the possibility to extracting circuits from simplified ZX-diagrams. 
 
-Moreover, any graph-like ZX-diagram are CNOT + H circuits locally. We can extract these CNOT circuits with gaussian elimination over $F_2$. Together with the remaining H gates, CZ gates and Z-rotations, we get a circuit equivilant to the original one.
+Moreover, any graph-like ZX-diagrams are CNOT + H circuits locally. We can extract these CNOT circuits with Gaussian elimination over $F_2$. Together with the remaining H gates, CZ gates, and Z-rotations, we get a circuit equivalent to the original one.
 
-## Demo
+### Demo
 
-The demo circuit is from the appendix of the paper [arXiv:1902.03178](https://arxiv.org/abs/1902.03178). All the codes can be find in `examples\ex1.jl`.
+The demo circuit is from the appendix of the paper [^3]. All the codes can be found in `examples\ex1.jl` of `ZXCalculus.jl`.
 ```julia
 # this is the original circuit.
 zxd = generate_example()
@@ -131,3 +142,19 @@ ZXplot(cir)
 ```
 ![](/assets/blog_res/ZX/6.svg)
 Finally we got the simplified circuit.
+
+## What I have done
+
+In the past phases during GSoC 2020, I have built up the main part of `ZXCalculus.jl`, including
+* data structures for representing ZX-diagrams,
+* rewriting rules,
+* circuits simplification algorithms [^3],[^4],
+* APIs for constructing ZX-diagrams from quantum gates,
+* basic visualization of ZX-diagrams.
+
+With the above functions, one can construct a circuit and simplify it. This is our main goal before the first evaluation. In the next phase, we will focus on the integration of `ZXCalculus.jl` and `YaoLang.jl`.
+
+[^1]: ["NON-IDENTITY-CHECK" IS QMA-COMPLETE](https://www.worldscientific.com/doi/abs/10.1142/S0219749905001067)
+[^2]: [Exact Non-identity check is NQP-complete](https://arxiv.org/abs/0903.0675)
+[^3]: [Graph-theoretic Simplification of Quantum Circuits with the ZX-calculus](https://arxiv.org/abs/1902.03178)
+[^4]: [Reducing T-count with the ZX-calculus](https://arxiv.org/abs/1903.10477)
