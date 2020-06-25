@@ -1,8 +1,16 @@
 ---
 layout: post
-title: Quantum circuits simplification and ZX-calculus
+title: GSoC 2020&#58; Quantum circuit simplification and ZX-calculus
 description: Implement ZX-calculus with Julia.
+author: Chen Zhao
+tags:
+- GSoC
+- ZX-calculus
 ---
+
+First of all, I would like to thank my mentor [Roger Luo](https://github.com/Roger-luo) and [Jinguo Liu](https://github.com/GiggleLiu) for supervising me during Google Summer of Code 2020. In this GSoC project, I will develop a new Julia package `ZXCalculus.jl` which implements ZX-calculus, and integrate it as a circuit simplification engine with `YaoLang.jl`, the next DSL (domain-specific language) for `Yao.jl` and quantum programs. `Yao.jl` has achieved a state-of-art quantum simulator with many advanced features such as automatic differentiation and symbolic computation. As a user of `Yao.jl`, I'm so glad to have the oppotunities to make contributions to it. In this blog post, I will summerize what we have done before the first evaluation.
+
+## Quantum circuits and ZX-calculus
 
 Quantum computing uses the principles of quantum mechanics for computing. To describe quantum algorithms, we often use the quantum circuit model which is the analog of the classical logic circuit model. Quantum circuits are consist of a set of basic quantum gates such as Pauli X, Y, Z gate, Hadamard gate, T gate, CNOT gate.
 
