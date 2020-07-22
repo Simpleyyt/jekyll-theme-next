@@ -129,9 +129,8 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  #about: /about/
-  about: /about/
-  category: /category/
+   about: /about/
+  categories: /categories/
   archives: /archives/
   tags: /tags/
   sitemap: /sitemap.xml
@@ -147,7 +146,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: category
+  categories: th
   schedule: calendar
   tags: tags
   archives: archive
