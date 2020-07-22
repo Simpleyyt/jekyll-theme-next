@@ -1,7 +1,7 @@
 ---
 title: "동기와 비동기는 무엇인가요?"
 categories:
-  - dictionary
+  - knowledge
 tags:
   - asynchronous
   - synchronous
