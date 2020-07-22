@@ -1,10 +1,5 @@
 ---
-title:  "Big vs Large"
-excerpt: "크다라는 의미를 가진 big과 large의 차이점은 무엇일까?"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
+title: "Big vs Large"
 categories:
   - English Word
 tags:
@@ -21,6 +16,7 @@ Big하고 Large를 생각하면<br/>
 그러나 같은 의미인 것 같지만 쓰일 때는 다르게 쓰인다는 점.
 
 ## BIG
+
 눈에 보이는 것이 큰 거 뿐만 아니라 눈에 보이지 않는 성공, 영향력, 중요도 등을 클 때 **big** 단어를 사용한다.<br/><br/>
 
 "I'm a big fan of yours"<br/>
@@ -36,6 +32,7 @@ Big하고 Large를 생각하면<br/>
 그녀는 크게 성공한 사람이야 <br/><br/>
 
 ## LARGE
+
 실제로 보이는 것의 크기나 용량이 크거나 많을 때 **large** 단어를 사용한다.<br/><br/>
 
 ​
@@ -53,5 +50,6 @@ Big하고 Large를 생각하면<br/>
 더 큰 방 있어요?<br/>
 
 ## 정리
-> 단순히 크기가 큰 ***Large***!<br/>
-> 크기도, 영향력도 큰 ***Big***!
+
+> 단순히 크기가 큰 **_Large_**!<br/>
+> 크기도, 영향력도 큰 **_Big_**!

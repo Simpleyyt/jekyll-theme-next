@@ -1,10 +1,5 @@
 ---
 title: "프로세스 vs 스레드"
-excerpt: "프로세스와 스레드에 대해 알아보고 차이점을 알자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
 categories:
   - dictionary
 tags:

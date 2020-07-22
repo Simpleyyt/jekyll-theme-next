@@ -1,10 +1,5 @@
 ---
 title: "동기와 비동기는 무엇인가요?"
-excerpt: "동기와 비동기에 대해 알아보자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
 categories:
   - dictionary
 tags:

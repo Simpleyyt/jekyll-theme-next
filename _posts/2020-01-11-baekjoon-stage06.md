@@ -1,10 +1,5 @@
 ---
-title:  "Baekjoon Algorithm stage06_java"
-excerpt: "백준알고리즘 6단계 1차원배열"
-toc: true
-toc_sticky: true
-toc_label: "문제 Index"
-
+title: "백준알고리즘 6단계 1차원배열_java"
 categories:
   - algorithm
 tags:
@@ -13,8 +8,11 @@ tags:
   - baekjoon
 last_modified_at: 2020-01-09T15:30:00-0:05:00
 ---
-## 10818번_최대최소_step01
+
+## 10818번\_최대최소\_step01
+
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step01.jpg)
+
 ```java
 import java.util.*;
 
@@ -42,17 +40,20 @@ public class Main{
   }
 }
 ```
+
 <br/>
 
-## 2562번_최댓값_step02
+## 2562번\_최댓값\_step02
+
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step02.jpg)
+
 ```java
 import java.util.*;
 
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        
+
         int[]  arr=new int[9];
         int max=0, index=0;
         for(int i=0;i<9;i++)
@@ -63,18 +64,21 @@ public class Main{
                 index = i;
             }
         }
-        
+
         System.out.println(max);
         System.out.println(index+1);
-      
+
     }
 }
 ```
+
 <br/>
 
-## 2577번_숫자의 개수_step03
+## 2577번\_숫자의 개수\_step03
+
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-1.jpg)
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-2.jpg)
+
 ```java
 
 ```

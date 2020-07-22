@@ -1,10 +1,5 @@
 ---
 title: "[github] git과 github"
-excerpt: "git과 github에 대해 알아보자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
 categories:
   - github
 tags:

@@ -1,10 +1,5 @@
 ---
-title:  "제어 대상을 찾기 - getElementsByTagName"
-excerpt: "태그명을 통해 제어 대상을 찾아보자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
+title: "제어 대상을 찾기 - getElementsByTagName"
 categories:
   - javascript
 tags:
@@ -14,6 +9,7 @@ last_modified_at: 2020-03-18T16:00:00-0:05:00
 ---
 
 ## getElementsByTagName
+
 getElementsByTagName은 인자로 전달된 태그명에 해당하는 객체들을 찾아서 그 리스트를 NodeList라는 유사 배열에 담아서 반환한다. NodeList는 배열은 아니지만 length와 배열접근연산자를 사용해서 element를 조회할 수 있다.
 
 ## getElementsByTagName 실습
@@ -61,7 +57,7 @@ getElementsByTagName은 인자로 전달된 태그명에 해당하는 객체들�
     var ul = document.getElementsByTagName('ul')[0];
     var lis = ul.getElementsByTagName('li');
     for(var i=0; lis.length; i++){
-        lis[i].style.color='red';   
+        lis[i].style.color='red';
     }
 </script>
 </body>
@@ -104,7 +100,7 @@ var ul = document.getElementsByTagName('ul');
     var ul = document.getElementsByTagName('ul')[1];
     var lis = ul.getElementsByTagName('li');
     for(var i=0; lis.length; i++){
-        lis[i].style.color='red';   
+        lis[i].style.color='red';
     }
 </script>
 </body>

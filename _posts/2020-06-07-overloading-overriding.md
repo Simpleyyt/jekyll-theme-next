@@ -1,10 +1,5 @@
 ---
 title: "오버로딩 vs 오버라이딩"
-excerpt: "오버로딩과 오버라이딩에 대해 알아보자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
 categories:
   - java
 tags:

@@ -1,10 +1,5 @@
 ---
-title:  "주피터 노트북(Jupyter Notebook) 설치하기"
-excerpt: "파이썬을 하기 위해 주피터 노트북을 설치하는 방법"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
+title: "주피터 노트북(Jupyter Notebook) 설치하기"
 categories:
   - python
 tags:
@@ -14,9 +9,11 @@ last_modified_at: 2020-03-10T18:50:00-0:05:00
 ---
 
 ## 주피터 노트북이란?
+
 웹브라우저 상에서 파이썬 코드를 단계적으로 실행해볼 수 있는 프로그램이다. 파이썬 이외의 언어도 가능하다.
 
 ## Jupyter Notebook 설치
+
 주피터 노트북을 설치하기 전에 파이썬을 먼저 설치해줘야한다.<br/><br/>
 [windows 10 파이썬 다운받는 방법](https://kimmy100b.github.io/python/python-install/)
 <br/><br/>
@@ -34,11 +31,13 @@ pip3 install jupyter
 설치완료!!<br/>
 
 ## Jupyter Notebook 실행
+
 cmd창에다가 아래 소스를 입력하면<br/>
 
 ```
 jupyter notebook
 ```
+
 cmd 창에 블라블라 떴다가 주피터 노트북이 실행됩니다.<br/>
 ![](https://kimmy100b.github.io/assets/images/install/jinstall2.JPG){: .align-center}<br/>
 

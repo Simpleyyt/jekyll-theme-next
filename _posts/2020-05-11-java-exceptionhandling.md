@@ -1,10 +1,5 @@
 ---
 title: "예외처리(Exception Handling)"
-excerpt: "예외처리에 대해 알아보고 간단하게 사용해보자"
-toc: true
-toc_sticky: true
-toc_label: "Index"
-
 categories:
   - java
 tags:
