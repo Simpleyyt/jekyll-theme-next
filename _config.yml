@@ -9,7 +9,7 @@ subtitle:
 description:
 author: 신윤정
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ko
 date_format: "%Y-%m-%d"
 
 # URL
@@ -398,7 +398,7 @@ wildfire:
     siteId:
   # other configs
   theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
+  locale: ko # or other locales, e.g. zh-CN
   defaultAvatarURL:
 # Any question?
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues

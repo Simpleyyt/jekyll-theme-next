@@ -16,6 +16,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="{{ site.author }}">
       <meta itemprop="description" content="{{ site.signature }}">
+       <!--내 사진 넣는 부분-->
       <meta itemprop="image" content="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar ) }}">
     </span>
 
