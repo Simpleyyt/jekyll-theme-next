@@ -269,7 +269,8 @@
 
     <div class="post-body{% if site.han %} han-init-context{% endif %}" itemprop="articleBody">
 
-    
+      {% comment %} Gallery support {% endcomment %}
+      {% if post.photos and post.photos.size > 0 %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
           {% assign COLUMN_NUMBER = 3 %}
           {% for photo in post.photos %}
