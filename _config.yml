@@ -134,7 +134,7 @@ menu:
   category: /category/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 # Enable/Disable menu icons.
@@ -147,7 +147,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  categories: category
   schedule: calendar
   tags: tags
   archives: archive
