@@ -7,7 +7,7 @@
 title: 바른개발 길잡이
 subtitle:
 description:
-author: Shin-yoonjung
+author: 신윤정
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: "%Y-%m-%d"
@@ -371,7 +371,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
   # hide comments (visitors need to click to load the comments)
