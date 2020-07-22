@@ -35,7 +35,6 @@
         itemscope
         itemtype="http://schema.org/Person"
       >
-        <!--내 사진 넣는 부분-->
         <img
           class="site-author-image"
           itemprop="image"
@@ -96,8 +95,8 @@
       %} {% endif %} {% if site_rss %}
       <div class="feed-link motion-element">
         <a href="{{ site_rss | relative_url }}" rel="alternate">
-          <i class="fa fa-github"></i>
-          github
+          <i class="fa fa-rss"></i>
+          RSS
         </a>
       </div>
       {% endif %}
