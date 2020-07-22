@@ -129,11 +129,11 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-   about: /about/
+  about: /about/
   categories: /categories/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  # sitemap: /sitemap.xml
   #commonweal: /404.html
 
 # Enable/Disable menu icons.
@@ -146,7 +146,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
-  categories: th
+  categories: th-list
   schedule: calendar
   tags: tags
   archives: archive
