@@ -1,12 +1,16 @@
 ---
-title: "백준알고리즘 1단계 입출력과 사칙연산_java"
-categories:
-  - algorithm
-tags:
-  - java
-  - algorithm
-  - baekjoon
-last_modified_at: 2020-01-07T23:22:00-0:05:00
+layout: post
+title: '백준알고리즘 1단계 입출력과 사칙연산_java'
+categories: [algorithm]
+excerpt: ' '
+comments: true
+share: true
+tags: [
+        -   java
+        -   algorithm
+        -   baekjoon,
+    ]
+date: 2020-01-07T23:22:00-0:05:00
 ---
 
 ## 2557번\_Hello World_step01
