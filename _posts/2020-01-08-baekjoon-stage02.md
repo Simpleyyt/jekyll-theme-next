@@ -1,12 +1,16 @@
 ---
-title: "백준알고리즘 2단계 if문_java"
+layout: post
+title: '백준알고리즘 2단계 if문_java'
 categories:
-  - algorithm
+    - algorithm
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - java
-  - algorithm
-  - baekjoon
-last_modified_at: 2020-01-08T16:15:00-0:05:00
+    - java
+    - algorithm
+    - baekjoon
+date: 2020-01-08T16:15:00-0:05:00
 ---
 
 ## 1330번\_두 수 비교하기\_step01

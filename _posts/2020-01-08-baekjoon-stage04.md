@@ -1,12 +1,16 @@
 ---
-title: "백준알고리즘 4단계 while문_java"
+layout: post
+title: '백준알고리즘 4단계 while문_java'
 categories:
-  - algorithm
+    - algorithm
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - java
-  - algorithm
-  - baekjoon
-last_modified_at: 2020-01-09T15:30:00-0:05:00
+    - java
+    - algorithm
+    - baekjoon
+date: 2020-01-09T15:30:00-0:05:00
 ---
 
 ## 10952번\_A+B-5_step01

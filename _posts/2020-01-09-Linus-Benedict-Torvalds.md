@@ -1,12 +1,16 @@
 ---
-title: "리누스 토르발스(Linus Torvalds), 그는 누구인가?"
+layout: post
+title: '리누스 토르발스(Linus Torvalds), 그는 누구인가?'
 categories:
-  - developer
+    - developer
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - developer
-  - software engineer
-  - Linus Torvalds
-last_modified_at: 2020-01-09T23:04:00-0:05:00
+    - developer
+    - software engineer
+    - Linus Torvalds
+date: 2020-01-09T23:04:00-0:05:00
 ---
 
 # 리누스 토르발스, 그는 누구인가?
