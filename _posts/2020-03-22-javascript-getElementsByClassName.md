@@ -1,11 +1,15 @@
 ---
-title: "제어 대상을 찾기 - getElementsByClassName"
+layout: post
+title: '제어 대상을 찾기 - getElementsByClassName'
 categories:
-  - javascript
+    - javascript
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - javascript
-  - getElementsByClassName
-last_modified_at: 2020-03-22T11:00:00-0:05:00
+    - javascript
+    - getElementsByClassName
+date: 2020-03-22T11:00:00-0:05:00
 ---
 
 ## getElementsByClassName

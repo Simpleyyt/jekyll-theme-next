@@ -1,11 +1,15 @@
 ---
-title: "Windows 10 Python 설치하기"
+layout: post
+title: 'Windows 10 Python 설치하기'
 categories:
-  - python
+    - python
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - python
-  - install
-last_modified_at: 2020-03-09T23:30:00-0:05:00
+    - python
+    - install
+date: 2020-03-09T23:30:00-0:05:00
 ---
 
 파이썬 코딩을 하기 위해

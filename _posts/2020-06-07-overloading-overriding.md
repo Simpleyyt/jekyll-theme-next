@@ -1,12 +1,16 @@
 ---
-title: "오버로딩 vs 오버라이딩"
+layout: post
+title: '오버로딩 vs 오버라이딩'
 categories:
-  - java
+    - java
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - java
-  - overloading
-  - overriding
-last_modified_at: 2020-06-07 T23:41:00-0:05:00
+    - java
+    - overloading
+    - overriding
+date: 2020-06-07 T23:41:00-0:05:00
 ---
 
 ## 오버로딩(Overloading)

@@ -1,11 +1,15 @@
 ---
-title: "주피터 노트북(Jupyter Notebook) 설치하기"
+layout: post
+title: '주피터 노트북(Jupyter Notebook) 설치하기'
 categories:
-  - python
+    - python
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - jupyter notebook
-  - install
-last_modified_at: 2020-03-10T18:50:00-0:05:00
+    - jupyter notebook
+    - install
+date: 2020-03-10T18:50:00-0:05:00
 ---
 
 ## 주피터 노트북이란?

@@ -1,11 +1,15 @@
 ---
-title: "예외처리(Exception Handling)"
+layout: post
+title: '예외처리(Exception Handling)'
 categories:
-  - java
+    - java
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - java
-  - exception handling
-last_modified_at: 2020-05-11 T12:38:00-0:05:00
+    - java
+    - exception handling
+date: 2020-05-11 T12:38:00-0:05:00
 ---
 
 ## 예외처리가 왜 필요할까?

@@ -1,34 +1,45 @@
 ---
-title: "데이터구조 : 큐(Queue) - python"
+layout: post
+title: '데이터구조 : 큐(Queue) - python'
+categories:
+    - python
+excerpt: ' '
+comments: true
+share: true
+tags:
+    - python
+    - data structure
+    - stack
+date: 2020-03-11T13:00
 ---
 
 ## 1. 큐의 구조
 
-- 가장 먼저 넣은 데이터를 가장 먼저 꺼낼 수 있는 구조이다.
+-   가장 먼저 넣은 데이터를 가장 먼저 꺼낼 수 있는 구조이다.
 
-- 줄을 서는 행위와 유사하다.
+-   줄을 서는 행위와 유사하다.
 
-  ex) 놀이구기를 탈 때 가장 먼저 줄을 선 사람이 제일 먼저 놀이기구를 타게 된다.
+    ex) 놀이구기를 탈 때 가장 먼저 줄을 선 사람이 제일 먼저 놀이기구를 타게 된다.
 
-- FIFO(First-In, First-Out) 또는 LILO(Last-In, Last-Out) 방식
+-   FIFO(First-In, First-Out) 또는 LILO(Last-In, Last-Out) 방식
 
-  ※ FIFO는 자주 쓰는 용어임으로 알아두기
+    ※ FIFO는 자주 쓰는 용어임으로 알아두기
 
-- 스택과 꺼내는 순서가 반대이다. 스택은 가장 나중에 넣은 데이터가 가장 먼저 꺼낼 수 있는 구조이다.
-  <br/>
-  ![](https://kimmy100b.github.io/assets/images/python/basic/queue.jpg){: .align-center}<br/>
+-   스택과 꺼내는 순서가 반대이다. 스택은 가장 나중에 넣은 데이터가 가장 먼저 꺼낼 수 있는 구조이다.
+    <br/>
+    ![](https://kimmy100b.github.io/assets/images/python/basic/queue.jpg){: .align-center}<br/>
 
 ## 2. 알아둘 용어
 
 queue에는 기능이 두 가지 있다. 하나는 넣는 기능이고 나머지는 빼내는 기능이다. <br/>
 
-- Enqueue : 큐를 데이터를 넣는 기능
+-   Enqueue : 큐를 데이터를 넣는 기능
 
-- Dequeue : 큐를 데이터를 꺼내는 기능
+-   Dequeue : 큐를 데이터를 꺼내는 기능
 
 ## 3. 파이썬 queue 라이브러리를 활용하여 큐 자료 구조 구현하기
 
-- queue 라이브러리에는 다양한 큐 구조로 Queue(), LifoQueue(), PriorityQueue() 제공<br/>
+-   queue 라이브러리에는 다양한 큐 구조로 Queue(), LifoQueue(), PriorityQueue() 제공<br/>
 
 | 큐 구조         | 설명                                                             |
 | --------------- | ---------------------------------------------------------------- |

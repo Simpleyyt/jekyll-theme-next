@@ -1,12 +1,16 @@
 ---
-title: "컴파일러(Compiler)와 인터프리터(Interpreter)"
+layout: post
+title: '컴파일러(Compiler)와 인터프리터(Interpreter)'
 categories:
-  - knowledge
+    - knowledge
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - Compiler
-  - Interpreter
-  - Cross-Compiler
-last_modified_at: 2020-03-25T01:58:00-0:05:00
+    - Compiler
+    - Interpreter
+    - Cross-Compiler
+date: 2020-03-25T01:58:00-0:05:00
 ---
 
 프로그램을 해석하는 방법 중 대표적인 컴파일러와 인터프리터에 대해 알아보자!<br/>

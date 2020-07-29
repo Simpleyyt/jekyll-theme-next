@@ -1,11 +1,15 @@
 ---
-title: "HTTP와 HTTPS의 차이는 무엇일까?"
+layout: post
+title: 'HTTP와 HTTPS의 차이는 무엇일까?'
 categories:
-  - HTTP&HTTPS
+    - HTTP&HTTPS
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - Http
-  - Https
-last_modified_at: 2020-03-07T21:58:00-0:05:00
+    - Http
+    - Https
+date: 2020-03-07T21:58:00-0:05:00
 ---
 
 ## About
@@ -26,14 +30,14 @@ HTTPS는 기본 골격이나 사용목적 등은 HTTP와 거의 동일하지만,
 
 ## HTTP와 HTTPS의 차이점 정리
 
-- URL​<br/>
-  HTTP는 http://로 시작하며, HTTPS는 https://로 시작한다.<br/><br/>
+-   URL​<br/>
+    HTTP는 http://로 시작하며, HTTPS는 https://로 시작한다.<br/><br/>
 
-- 보안<br/>
-  HTTP : 암호화가 전혀 되어 있는 않은 프로토콜로 보안성이 매우 떨어짐<br/>
-  HTTPS : 암호화하여 정보를 전송하기 때문에 보안성이 강조됨<br/><br/>
+-   보안<br/>
+    HTTP : 암호화가 전혀 되어 있는 않은 프로토콜로 보안성이 매우 떨어짐<br/>
+    HTTPS : 암호화하여 정보를 전송하기 때문에 보안성이 강조됨<br/><br/>
 
-- 속도<br/>
-  암호화과정으로 인해 HTTP보다 HTTPS의 속도가 더 느리지만 아주 미세한 속도차이므로 차이를 별로 느낄 수 없음
+-   속도<br/>
+    암호화과정으로 인해 HTTP보다 HTTPS의 속도가 더 느리지만 아주 미세한 속도차이므로 차이를 별로 느낄 수 없음
 
 ​

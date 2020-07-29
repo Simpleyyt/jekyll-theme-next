@@ -1,12 +1,15 @@
 ---
-title: "제어 대상을 찾기 - querySelector, querySelectorAll"
+layout: post
+title: '제어 대상을 찾기 - querySelector, querySelectorAll'
 categories:
-  - javascript
-tags:
-  - javascript
-  - querySelector
-  - querySelectorAll
-last_modified_at: 2020-03-31T13:00:00-0:05:00
+    - javascript
+excerpt: ' '
+comments: true
+share: true
+    - javascript
+    - querySelector
+    - querySelectorAll
+date: 2020-03-31T13:00:00-0:05:00
 ---
 
 ## querySelector

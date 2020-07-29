@@ -1,13 +1,17 @@
 ---
-title: "Big vs Large"
+layout: post
+title: 'Big vs Large'
 categories:
-  - English Word
+    - English Word
+excerpt: ' '
+comments: true
+share: true
 tags:
-  - English
-  - English word
-  - Big
-  - Large
-last_modified_at: 2020-03-07T23:19:00-0:05:00
+    - English
+    - English word
+    - Big
+    - Large
+date: 2020-03-07T23:19:00-0:05:00
 ---
 
 Big하고 Large를 생각하면<br/>
