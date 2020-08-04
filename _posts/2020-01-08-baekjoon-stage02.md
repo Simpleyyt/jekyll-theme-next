@@ -13,7 +13,7 @@ tags:
 date: 2020-01-08T16:15:00-0:05:00
 ---
 
-## 1330번\_두 수 비교하기\_step01
+# 1330번\_두 수 비교하기\_step01
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage02/step01.jpg)
 
@@ -44,7 +44,7 @@ public class Main {
 
 <br/>
 
-## 9498번\_시험 성적\_step02
+# 9498번\_시험 성적\_step02
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage02/step02.jpg)
 
@@ -79,7 +79,7 @@ public class Main {
 
 <br/>
 
-## 2753번\_윤년\_step03
+# 2753번\_윤년\_step03
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage02/step03.jpg)
 
@@ -106,7 +106,7 @@ public class Main {
 
 <br/>
 
-## 2884번\_알람 시계\_step04
+# 2884번\_알람 시계\_step04
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage02/step04.jpg)
 
@@ -140,7 +140,7 @@ public class step04 {
 여기서 조심해야할 부분은 시(hour)가 00이고 분(minute)이 45분이하이면 시가 23시가 되어야한다.
 <br/>
 
-## 10817번\_세 수\_step05
+# 10817번\_세 수\_step05
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage02/step05.jpg)
 

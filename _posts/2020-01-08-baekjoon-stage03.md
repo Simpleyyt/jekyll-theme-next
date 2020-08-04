@@ -13,7 +13,7 @@ tags:
 date: 2020-01-08T23:26:00-0:05:00
 ---
 
-## 2739번\_구구단\_step01
+# 2739번\_구구단\_step01
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step01.jpg)
 
@@ -35,7 +35,7 @@ public class Main{
 
 <br/>
 
-## 10950번\_A+B-3_step02
+# 10950번\_A+B-3_step02
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step02.jpg)
 
@@ -59,7 +59,7 @@ public class Main {
 
 <br/>
 
-## 8393번\_합\_step03
+# 8393번\_합\_step03
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step03.jpg)
 
@@ -84,7 +84,7 @@ public class Main {
 
 <br/>
 
-## 15552번\_빠른 A+B_step04
+# 15552번\_빠른 A+B_step04
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step04.jpg)
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step04-Buffered.jpg)
@@ -128,7 +128,7 @@ public class Main {
 이 문제를 해결할 때 막혔던 부분은 splite함수이다. splite 함수는 간단하게 말하자면 특정 문자를 기준으로 문자열을 잘라 배열에 넣어주는 함수이다. splite 함수와 그 외에 유사한 함수들은 포스팅을 따로 올릴 예정이다.
 <br/>
 
-## 2741번\_N찍기\_step05
+# 2741번\_N찍기\_step05
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step05.jpg)
 
@@ -151,7 +151,7 @@ public class Main {
 
 <br/>
 
-## 2742번\_기찍N_step06
+# 2742번\_기찍N_step06
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step06.jpg)
 
@@ -173,7 +173,7 @@ public class Main {
 
 <br/>
 
-## 11021_A+B-7_step07
+# 11021_A+B-7_step07
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step07.jpg)
 
@@ -199,7 +199,7 @@ public class Main {
 
 <br/>
 
-## 11022_A+B-8_step08
+# 11022_A+B-8_step08
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step08.jpg)
 
@@ -225,7 +225,7 @@ public class Main {
 
 <br/>
 
-## 2438번\_별 찍기1_step09
+# 2438번\_별 찍기1_step09
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step09.jpg)
 
@@ -253,7 +253,7 @@ public class Main {
 
 <br/>
 
-## 2439번\_별 찍기2_step10
+# 2439번\_별 찍기2_step10
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step10.jpg)
 
@@ -285,7 +285,7 @@ public class Main {
 
 <br/>
 
-## 10871번\_X보다 작은 수\_step11
+# 10871번\_X보다 작은 수\_step11
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage03/step11.jpg)
 

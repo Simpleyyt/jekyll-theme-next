@@ -12,11 +12,11 @@ tags:
 date: 2020-03-18T16:00:00-0:05:00
 ---
 
-## getElementsByTagName
+# getElementsByTagName
 
 getElementsByTagName은 인자로 전달된 태그명에 해당하는 객체들을 찾아서 그 리스트를 NodeList라는 유사 배열에 담아서 반환한다. NodeList는 배열은 아니지만 length와 배열접근연산자를 사용해서 element를 조회할 수 있다.
 
-## getElementsByTagName 실습
+# getElementsByTagName 실습
 
 ```
 <!DOCTYPE html>
@@ -39,7 +39,7 @@ getElementsByTagName은 인자로 전달된 태그명에 해당하는 객체들�
 
 ![](https://kimmy100b.github.io/assets/images/javascript/getElement/tagName/01-01.jpg)
 
-### <li>태그인데 <ul>아래에 있는 <li>만 바꾸어주고 싶다면??
+## <li>태그인데 <ul>아래에 있는 <li>만 바꾸어주고 싶다면??
 
 ```
 <!DOCTYPE html>
@@ -70,7 +70,7 @@ getElementsByTagName은 인자로 전달된 태그명에 해당하는 객체들�
 
 ![](https://kimmy100b.github.io/assets/images/javascript/getElement/tagName/01-02.jpg)
 
-### 궁금한 점 1. var ul = document.getElementsByTagName('ul')[0];에서 [0]을 없애면?
+## 궁금한 점 1. var ul = document.getElementsByTagName('ul')[0];에서 [0]을 없애면?
 
 ```
 var ul = document.getElementsByTagName('ul');
@@ -78,7 +78,7 @@ var ul = document.getElementsByTagName('ul');
 
 아무것도 변화되지 않음
 
-### 궁금한 점 2. var ul = document.getElementsByTagName('ul')[0];에서 [1]로 바꾸었을 때
+## 궁금한 점 2. var ul = document.getElementsByTagName('ul')[0];에서 [1]로 바꾸었을 때
 
 ```
 <!DOCTYPE html>

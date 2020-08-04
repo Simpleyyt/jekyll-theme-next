@@ -12,7 +12,7 @@ tags:
 date: 2020-01-07T23:22:00-0:05:00
 ---
 
-## 2557번\_Hello World_step01
+# 2557번\_Hello World_step01
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step01.jpg)
 
@@ -26,7 +26,7 @@ public class Main{
 
 <br/>
 
-## 10718번\_We love kriii_step02
+# 10718번\_We love kriii_step02
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step02.jpg)
 
@@ -41,7 +41,7 @@ public class Main {
 
 <br/>
 
-## 10171번\_고양이\_step03
+# 10171번\_고양이\_step03
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step03.jpg)
 
@@ -58,7 +58,7 @@ public class Main{
 
 <br/>
 
-## 10172번\_개\_step04
+# 10172번\_개\_step04
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step04.jpg)
 
@@ -76,7 +76,7 @@ public class Main{
 
 <br/>
 
-## 1000번\_A+B_step05
+# 1000번\_A+B_step05
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step05.jpg)
 
@@ -98,7 +98,7 @@ public class Main{
 
 <br/>
 
-## 1001번\_A-B_step06
+# 1001번\_A-B_step06
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step06.jpg)
 
@@ -119,7 +119,7 @@ public class Main{
 
 <br/>
 
-## 10998번\_A\*B_step07
+# 10998번\_A\*B_step07
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step07.jpg)
 
@@ -140,7 +140,7 @@ public class Main{
 
 <br/>
 
-## 1008번\_A/B_step08
+# 1008번\_A/B_step08
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step08.jpg)
 
@@ -162,7 +162,7 @@ public class Main{
 
 <br/>
 
-## 10869번\_사칙연산\_step09
+# 10869번\_사칙연산\_step09
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step09.jpg)
 
@@ -188,7 +188,7 @@ public class Main {
 
 <br/>
 
-## 10430번\_나머지\_step10
+# 10430번\_나머지\_step10
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step10.jpg)
 
@@ -213,7 +213,7 @@ public class Main {
 
 <br/>
 
-## 2588번\_곱셈\_step11
+# 2588번\_곱셈\_step11
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage01/step11.jpg)
 

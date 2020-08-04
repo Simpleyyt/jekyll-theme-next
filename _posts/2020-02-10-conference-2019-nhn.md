@@ -18,7 +18,7 @@ date: 2020-02-10T09:17:00-0:10:00
 
 종강하고 대구와 가까운 창원에서 컨퍼런스를 한다고하여 바로 참가했습니다!!
 
-## 1. 참가확인
+# 1. 참가확인
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/participate01.jpg){: .align-center}
 성탄절 다음날이여서 아마 준비하시는 분들이 휴일날 고생하셨을 것 같네요ㅜㅜ<br/>
@@ -30,13 +30,13 @@ date: 2020-02-10T09:17:00-0:10:00
 지방에서 컨퍼런스를 개최하는 건 처음이라고 하네요!! 이례적인 일이기는 하나 처음이라고해서 놀랐던...
 <br/>
 
-## 2. 세션
+# 2. 세션
 
 이 컨퍼런스가 열리기 약 한달 전에 서울에서도 컨퍼런스가 열렸었는데 경남/창원과 같은 트랙도 있지만 다른 것도 있다고 한다. 특히 스몰섹션부분이 다르다고 한다.
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step01.jpg){: .align-center}
 등록 후 인사말을 듣고 너무 배가 고파 아침을 먹고와서 키노트를 못 들어서 아쉬운 마음을 가지고 다음 섹션에 갔다.<br/>
 
-### 2-1. HTTP API 설계, 후회, 고민
+## 2-1. HTTP API 설계, 후회, 고민
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step02.jpg){: .align-center}
 처음으로 내가 들은 트랙은 <HTTP API 설계, 후회, 고민>이였다.
@@ -89,7 +89,7 @@ is_, has_, can_
 3.  날짜, 날짜 시간 필드명
     ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/img01.jpg){: .align-center}<br/><br/>
 
-### cf. 점심시간
+## cf. 점심시간
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step03.jpg){: .align-center}<br/>
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/lunch.jpg){: .align-center}<br/><br/>
@@ -97,7 +97,7 @@ is_, has_, can_
 든든하게 한끼를 마치고 디저트로 과일도 나누어주었다.<br/>
 힘을 내서 그 다음 내용을 들으러 고고!<br/>
 
-### 2-2. NHN 베이스캠프 : 신입사원들은 무엇을 배우나요?
+## 2-2. NHN 베이스캠프 : 신입사원들은 무엇을 배우나요?
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step04.jpg){: .align-center}<br/>
 사실 다른 내용은 들어도 잘 모를 것 같기도 하고 진짜 나에게 맞춤형 내용이지 않을까? 싶어서 이 트랙에 왔다.<br/>  
@@ -149,7 +149,7 @@ is_, has_, can_
 
     <br/>
 
-### 2-3. NHN 루키의 성장담
+## 2-3. NHN 루키의 성장담
 
 ​![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step05.jpg){: .align-center}<br/>
 
@@ -181,7 +181,7 @@ release 브랜치에서 QnA와 피드백 과정을 거친 후 master를 해준�
 -   줄 밑에 댓글을 달 수도 있다
     <br/>
 
-### 2-4. 리액트 첫걸음을 위한 속성 가이드 투어
+## 2-4. 리액트 첫걸음을 위한 속성 가이드 투어
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step06.jpg){: .align-center}<br/>
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/img04.jpg){: .align-center}<br/>
@@ -197,7 +197,7 @@ release 브랜치에서 QnA와 피드백 과정을 거친 후 master를 해준�
    (내용은 생략하고 사진으로 보여드릴께요.)
    ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/img05.jpg){: .align-center}<br/>
 
-### 2-5. Spring JPA의 사실과 오해
+## 2-5. Spring JPA의 사실과 오해
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step07.jpg){: .align-center}<br/>
 "소프트웨어공학의 사실과 오해" 라는 책에서 트랙 제목을 정했다고 한다.
@@ -235,7 +235,7 @@ release 브랜치에서 QnA와 피드백 과정을 거친 후 master를 해준�
 (내용을 다 적으면 정리 요약본이 아닐 것 같아서 오해들만 적어두고 나중에 제대로 공부할 때 관련 내용들을 다시 한번 보도록 하려고 한다.)
 <br/>
 
-### 2-6. 딥러닝, 야 너도 할 수 있어(feat. PyTorch)
+## 2-6. 딥러닝, 야 너도 할 수 있어(feat. PyTorch)
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/step08.jpg){: .align-center}<br/>
 딥러닝. 요즘에는 유튜브를 자주보다보면 유튜브 알고리즘이라는 용어를 듣곤 한다.<br/>
@@ -250,11 +250,11 @@ release 브랜치에서 QnA와 피드백 과정을 거친 후 master를 해준�
 딥러닝은 수학계산이 많다고 하셨다. 그래서 공식(?)을 알려주고 설명해주셨다. <br/>
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/img07.jpg){: .align-center}<br/>
 
-## 3. 기념품
+# 3. 기념품
 
 ![](https://kimmy100b.github.io/assets/images/conference/2019_12_NHN/gift.jpg){: .align-center}<br/>
 
-## 4. 마무리
+# 4. 마무리
 
 처음으로 회사에서 여는 컨퍼런스에 참가를 하게 되어 기대가 엄청 컸다. 그러나 기대하는 만큼 두려움도 컸다. 특강을 들으면 무엇을 하라고는 하는데 정확히 어떻게 해야하는 지 감이 안오게 말씀을 해주시거나 뜬구름잡는 느낌의 말씀이 많았기 때문이다. 그래서 이 컨퍼런스도 그러면 어쩌지하는 생각으로 인해 두려움이 있었다. <br/>
 사실 웹을 하기로 마음먹은 것도 얼마되지 않았고 나는 많이 부족하고 들어도 못 알아듣는 것이 많을 것이기 때문에 스몰 스탭이 나에게 너무 좋았던 것 같다. 가장 좋았던 트랙도 스몰 스탭에서 했던 "NHN 베이스캠프 : 신입사원들은 무엇을 배우나요?"였다. 신입사원을 배우는 것들인데 내가 지금 실천하고 공부하는데 필요한 방법들을 알려주셨고 어떻게 해야하는 지 자신의 사례를 들어 설명을 해주니 이해 및 적용하기가 쉬웠다.(그 덕에 이렇게 블로그를 꾸준히 하려고 노력합니다!!) 아직 책은 읽어가지 못하고 있지만 조만간 책도 읽으면서 가르쳐주신 것을 잘 실천하며 발전하는 내가 되었으면 좋겠다라는 생각을 한다.<br/>

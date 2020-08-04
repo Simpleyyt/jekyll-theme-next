@@ -13,7 +13,7 @@ tags:
 date: 2020-01-09T15:30:00-0:05:00
 ---
 
-## 10818번\_최대최소\_step01
+# 10818번\_최대최소\_step01
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step01.jpg)
 
@@ -47,7 +47,7 @@ public class Main{
 
 <br/>
 
-## 2562번\_최댓값\_step02
+# 2562번\_최댓값\_step02
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step02.jpg)
 
@@ -78,7 +78,7 @@ public class Main{
 
 <br/>
 
-## 2577번\_숫자의 개수\_step03
+# 2577번\_숫자의 개수\_step03
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-1.jpg)
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-2.jpg)

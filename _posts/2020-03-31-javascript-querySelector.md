@@ -12,13 +12,13 @@ share: true
 date: 2020-03-31T13:00:00-0:05:00
 ---
 
-## querySelector
+# querySelector
 
 CSS는 선택자라는 것이 있어서 그 선택자를 이용해서 여러분이 꾸며주고자하는 element를 디자인할 수 있는 기능이 있다.<br/>
 그 선택자를 인자로 받아서 그 선택자에 해당되는 element들의 객체를 찾아서 여러분들에게 리턴해주는 메소드가 querySelector라고 하는 것이다.<br/>
 그러나 단 한 개만 선택하여 꾸며준다. 만약, 다수의 태그를 사용하고 싶다면 querySelectorAll을 사용해야한다.(뒤에 나옴)<br/>
 
-## querySelector 실습
+# querySelector 실습
 
 코드
 
@@ -71,7 +71,7 @@ document.querySelector('#activiteI');
 
 결과
 
-### 궁금한 점 - 1
+## 궁금한 점 - 1
 
 class가 여러 개라면 어떻게 적용될까?
 
@@ -104,11 +104,11 @@ class가 여러 개라면 어떻게 적용될까?
 
 결론 : className을 더 추가해줘도 전부 스타일을 꾸며주는 것이 아니라 해당하는 className의 제일 처음만 꾸며준다.
 
-## querySelectorAll
+# querySelectorAll
 
 querySelector과 기본적인 동작방법은 같지만 모든 객체를 조회한다는 점이 다르다.
 
-## querySelectorAll 실습
+# querySelectorAll 실습
 
 ```
 <!DOCTYPE html>
@@ -135,7 +135,7 @@ querySelector과 기본적인 동작방법은 같지만 모든 객체를 조회�
 </html>
 ```
 
-### 궁금한 점 - 1
+## 궁금한 점 - 1
 
 getElementsByTagName처럼 <ul>태그 안에 있는 <li>만 선택할 수 있을까?<br/>
 

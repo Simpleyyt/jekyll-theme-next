@@ -12,11 +12,11 @@ tags:
 date: 2020-03-10T18:50:00-0:05:00
 ---
 
-## 주피터 노트북이란?
+# 주피터 노트북이란?
 
 웹브라우저 상에서 파이썬 코드를 단계적으로 실행해볼 수 있는 프로그램이다. 파이썬 이외의 언어도 가능하다.
 
-## Jupyter Notebook 설치
+# Jupyter Notebook 설치
 
 주피터 노트북을 설치하기 전에 파이썬을 먼저 설치해줘야한다.<br/><br/>
 [windows 10 파이썬 다운받는 방법](https://kimmy100b.github.io/python/python-install/)
@@ -34,7 +34,7 @@ pip3 install jupyter
 
 설치완료!!<br/>
 
-## Jupyter Notebook 실행
+# Jupyter Notebook 실행
 
 cmd창에다가 아래 소스를 입력하면<br/>
 

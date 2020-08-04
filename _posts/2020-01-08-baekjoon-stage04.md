@@ -13,7 +13,7 @@ tags:
 date: 2020-01-09T15:30:00-0:05:00
 ---
 
-## 10952번\_A+B-5_step01
+# 10952번\_A+B-5_step01
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step01.jpg)
 
@@ -38,7 +38,7 @@ public class Main{
 
 <br/>
 
-## 10951번\_A+B-4_step02
+# 10951번\_A+B-4_step02
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step02.jpg)
 
@@ -62,7 +62,7 @@ public class Main{
 어떤 조건일 때 종료해야할 지 문제에 제시되어있지 않기 때문에 hasNextInt()를 사용하였다. hasNextInt()는 Int형 이외의 값을 입력받았을 때 처리해주는 함수이다. 그러므로 Int형이 아니면 while문이 종료된다.
 <br/>
 
-## 1110번\_더하기 사이클\_step03
+# 1110번\_더하기 사이클\_step03
 
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-1.jpg)
 ![](https://kimmy100b.github.io/assets/images/baekjoon/stage04/step03-2.jpg)
