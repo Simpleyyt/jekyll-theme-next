@@ -41,6 +41,7 @@ int my_first_variable;
 ​
 # 케밥 표기법(Kebab case)
 
+​![](https://kimmy100b.github.io/assets/images/dictionary/kebabcase.png){: .align-center}<br/>
 - 케밥이 꼬챙이에 꽃힌 모습에서 생긴 방법
 - 모든 단어가 소문자로 시작하고, 단어와 단어 사이에는 "-"로 연결된 방식
 ```
