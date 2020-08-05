@@ -8,7 +8,7 @@ comments: true
 share: true
 tags:
     - conference
-    - NHN
+    - NHN2019
     - NHNFORWARD창원
     - NHNFORWARD경남
 date: 2020-02-10T09:17:00-0:10:00
