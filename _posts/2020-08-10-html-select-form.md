@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '태그의 form 속성'
+title: '태그의 `<select>` form 속성'
 categories:
     - html
 excerpt: ' '
@@ -37,7 +37,6 @@ date: 2020-08-10 T16:34:00-0:05:00
 ```
 ## 결과
 
-<!DOCTYPE html>
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
@@ -52,6 +51,7 @@ date: 2020-08-10 T16:34:00-0:05:00
     </select>
 </body>
 </html>
+<br/>
 
 # `<select>` 태그의 form 속성
 ## 정의
