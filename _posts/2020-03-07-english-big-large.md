@@ -2,13 +2,12 @@
 layout: post
 title: 'Big vs Large'
 categories:
-    - English Word
+    - Eng
 excerpt: ' '
 comments: true
 share: true
 tags:
-    - English
-    - English word
+    - Eng word
     - Big
     - Large
 date: 2020-03-07T23:19:00-0:05:00
