@@ -63,10 +63,48 @@ date: 2020-08-10 T16:34:00-0:05:00
 <select form="form id">
 ```
 
-
 ## 예제 소스코드
+```
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML select tag - form attribute</title>
+</head>
+<body>
+    <select name="search" form="myForm">
+      	<option value="" selected>-선택-</option>
+        <option value="writer">작성자</option>
+        <option value="title">제목</option>
+        <option value="content">내용</option>
+    </select>
+    <form action="보낼 위치" method="get" id="myForm">
+        <input type="text" placeholder="Search">
+        <input type="submit" value="제출"/>
+    </form>
+</body>
+</html>
+```
 
-
+## 결과
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML select tag - form attribute</title>
+</head>
+<body>
+    <select name="search" form="myForm">
+      	<option value="" selected>-선택-</option>
+        <option value="writer">작성자</option>
+        <option value="title">제목</option>
+        <option value="content">내용</option>
+    </select>
+    <form action="보낼 위치" method="get" id="myForm">
+        <input type="text" name="content" placeholder="Search">
+        <input type="submit" value="제출"/>
+    </form>
+</body>
+</html>
 
 # 참고
 http://tcpschool.com/html-tag-attrs/select-form
