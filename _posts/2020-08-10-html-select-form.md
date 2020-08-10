@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '태그의 `<select>` form 속성'
+title: 'select 태그의 form 속성'
 categories:
     - html
 excerpt: ' '
