@@ -18,6 +18,25 @@ Arrays 클래스에는 배열을 다루기 위한 다양한 메소드가 포함�
 
 # binarySearch() 메소드
 전달받은 배열에서 특정 객체를 이진 검색 알고리즘을 사용하여 검색한 후, 그 위치를 반환함<br/>
+```java
+import java.util.Arrays;
+
+public class Main {
+	public static void main(String[] args) {
+		int[] arr = new int[1000];
+		for(int i = 0; i < arr.length; i++) {
+			arr[i] = i;
+		}
+		
+		System.out.println(Arrays.binarySearch(arr, 437));
+	}
+}
+```
+<br/>출력결과
+```
+437
+```
+<br/>
 
 # copyOf() 메소드
 전달받은 배열을 특정 길이의 새로운 배열로 복사하여 반환함<br/>
@@ -48,6 +67,7 @@ public class Main {
 1 2 3 
 1 2 3 4 5 0 0 0 0 0
 ```
+<br/>
 
 # copyOfRange() 메소드
 전달받은 배열의 특정 범위에 해당하는 요소만을 새로운 배열로 복사하여 반환함<br/>
@@ -90,6 +110,7 @@ public class Main {
 ```
 3 4 5 0 0 
 ```
+<br/>
 
 # equals() 메소드
 전달받은 두 배열이 같은지를 확인함. boolean 타입<br/>
@@ -112,6 +133,7 @@ public class Main {
 false
 true
 ```
+<br/>
 
 # fill() 메소드
 전달받은 배열의 모든 요소를 특정 값으로 초기화함<br/>
@@ -137,6 +159,7 @@ public class Main {
 ```
 3 3 3 3 3 3 3 3 3 3
 ```
+<br/>
 
 # sort() 메소드
 전달받은 배열의 모든 요소를 오름차순으로 정렬함
