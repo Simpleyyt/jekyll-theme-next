@@ -12,7 +12,8 @@ tags:
 date: 2020-08-13T16:08:00-0:10:00
 ---
 
-이미지
+![](https://kimmy100b.github.io/assets/images/conference/2019_7_tech/email.png){: .align-center}<br/>
+
 
 # 2020년에 FE개발자가 되기 위한 10가지 방법 by 코드스쿼드 윤지수
 "웹은 계속 발전중이군"
