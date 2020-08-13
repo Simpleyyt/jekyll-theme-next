@@ -2,7 +2,7 @@
 layout: post
 title: '오버로딩 vs 오버라이딩'
 categories:
-    - java
+    - knowledge
 excerpt: ' '
 comments: true
 share: true
