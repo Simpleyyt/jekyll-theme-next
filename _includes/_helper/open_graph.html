@@ -34,7 +34,7 @@
   {% if images.size == 0 and page_content %}
     {% assign imgs = page_content | strip | split: '<img' | shift %}
     {% for img in imgs %}
-      {% assign tmp = img | strip | split: 'src=' | shfit %}
+      {% assign tmp = img | strip | split: 'src=' | shift %}
       {% assign tmp = tmp | strip | split: '\"' | shift %}
       {% assign image = tmp[0] | strip %}
       {% if image %}
