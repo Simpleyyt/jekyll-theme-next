@@ -9,13 +9,13 @@ subtitle:
 description:
 author: SmileStar
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-hk
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://duoduo-Zhang.github.io'
-baseurl: 'https://github.com/duoduo-Zhang'
+url: #'https://duoduo-Zhang.github.io'
+baseurl: #'https://github.com/duoduo-Zhang'
 permalink: pretty
 
 # Pagination
@@ -119,7 +119,7 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories/ #分类
-  about: /about/
+  # about: /about/
   archives: /archives/
   tags: /tags/
   sitemap: /sitemap.xml
@@ -135,7 +135,7 @@ menu_icons:
   enable: true
   # KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  # about: user
   categories: th
   schedule: calendar
   tags: tags
