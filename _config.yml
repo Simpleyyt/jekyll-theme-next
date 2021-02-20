@@ -233,7 +233,8 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+#修改侧边栏头像，images是我新建的文件夹
+avatar: /images/my_photo.jpg
 
 
 # Table Of Contents in the Sidebar
