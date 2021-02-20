@@ -6,7 +6,7 @@
 # Site
 title: SmileStar
 subtitle:
-description:
+description: share
 author: SmileStar
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -233,8 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#修改侧边栏头像，images是我新建的文件夹
-avatar: /images/my_photo.jpg
+avatar: /assets/images/xiaoxin.jpeg
 
 
 # Table Of Contents in the Sidebar
@@ -439,7 +438,7 @@ gitalk:
   enable: false
   clientID: # 54730ddf7b9420460c03
   clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
+  repo: # duoduo-zhang.github.io
   owner: # colingpt
   admin: # colingpt
 
