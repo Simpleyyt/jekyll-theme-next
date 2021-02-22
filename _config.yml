@@ -15,7 +15,7 @@ date_format: '%Y-%m-%d'
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: 'https://duoduo-Zhang.github.io'
-baseurl: #'https://github.com/duoduo-Zhang'
+baseurl: 'https://github.com/duoduo-Zhang'
 permalink: pretty
 
 # Pagination
@@ -122,8 +122,8 @@ menu:
   # about: /about/
   archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
-  commonweal: /404.html
+  # sitemap: /sitemap.xml
+  # commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -140,8 +140,8 @@ menu_icons:
   schedule: calendar
   tags: tags
   archives: archive
-  sitemap: sitemap
-  commonweal: heartbeat
+  # sitemap: sitemap
+  # commonweal: heartbeat
 
 
 
