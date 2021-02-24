@@ -4,9 +4,9 @@
 # ---------------------------------------------------------------
 
 # Site
-title: SmileStar
+title: 七兮
 subtitle:
-description: share
+description: 论渣女大波浪如何才能更渣
 author: SmileStar
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://duoduo-Zhang.github.io'
-baseurl: # ''
+url: 'https://hungrysponge.github.io'
+baseurl: '/'
 permalink: pretty
 
 # Pagination
