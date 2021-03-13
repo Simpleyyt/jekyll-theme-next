@@ -9,3 +9,4 @@ description: Hello world
 
 敬GitHub
 
+此编辑使用命令行（git basho）
