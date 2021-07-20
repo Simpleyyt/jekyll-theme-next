@@ -1,6 +1,6 @@
 ---
 Title: TryHackMe - Daily Bugle
-Description:Compromise a Joomla CMS account via SQLi, practise cracking hashes and escalate your privileges by taking advantage of yum.
+Description: Compromise a Joomla CMS account via SQLi, practise cracking hashes and escalate your privileges by taking advantage of yum.
 categories:
  - tryhackme
 tags: tryhackme , joomla, sqli, oscp, yum
