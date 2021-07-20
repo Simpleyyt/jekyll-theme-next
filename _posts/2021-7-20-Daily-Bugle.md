@@ -1,7 +1,7 @@
 ---
 Title: TryHackMe - Daily Bugle
 Description: DailyBugle writeup
- - tryhackme
+
 tags: tryhackme joomla sqli oscp yum
 ---
 
