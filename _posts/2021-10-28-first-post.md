@@ -1,9 +1,9 @@
----
-깃허브 블로그 첫 게시글!
-description: Trying hard to write something meaningful for my first post. hmm...
-categories:
- - small talk
-tags:
+layout: post
+title: "첫 번째 포스팅"
+date: 2021-10-28
+categories: small talk
+tags: []
+
 ---
 
 > helen의 첫 블로그 글입니다!
