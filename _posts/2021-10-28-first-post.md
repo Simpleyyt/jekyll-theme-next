@@ -6,12 +6,25 @@ categories:
 tags:
 ---
 
-> Hello, glad to see you here. Maybe you're interested in my articles. LOL :)
-
-I have made this blog to upload what I have learned everyday.
-It may consist of things related with my career. But just for fun :)
-I would like to share some meaningful knowledge with others as I have learned a lot also through other posts.
+> helen의 첫 블로그 글입니다!
 
 
 
-Hiiii
+깃허브 블로그를 처음 만들어봤는데, 단순히 fork해서 만들었음에도 문제를 상당히 많이 겪었다.
+우선 대부분의 타 블로그에서 설명하는 깃허브를 이용한 블로그 만들기는 개발언어를 좀 이해한 사람들 기준인 경우가 많았고,,
+나는 깃허브의 ㄱ자도 모르고,,, 그렇기 때문에 난 아주 쉽게 블로그를 만들 수 있는 방법을 찾아냈다.
+
+이 블로그를 참고해서 만들었는데 초보자 관점에서 아주 잘 설명되어있다!
+https://recoveryman.tistory.com/321?category=635733
+
+여기서 내가 다르게 한 점은 나는 bash를 사용하지 않고 그냥 터미널로 작업했다.
+
+그리고 추가로 다르게 한 점은 git push 후 password를 깃허브에서 발급받은 token을 사용했다.
+아직 명확한 이유를 찾진 못했지만 왠지 보안상 비밀번호가 아닌 깃허브에서 발급받은 token을 사용하는 것 같았다.
+
+token 발급은 아래의 화면에서 Settings - Developer Settings - Personal access tokens에 가면 발급 받을 수 있다.
+발급받으면 나온 토큰을 복사해서 push 할 때 password를 입력하는 창에 cmd + v 해주면 된다.
+
+<img scr="https://user-images.githubusercontent.com/88134085/139533983-d36084a5-1aaf-4d4a-8131-369d2106f916.png"/>
+
+사실 이것 외에도 이미지를 어떻게 올려야할지에 대한 방법을 많이 찾아봤다. 왜냐하면 난 비개발자이기 때문에..
