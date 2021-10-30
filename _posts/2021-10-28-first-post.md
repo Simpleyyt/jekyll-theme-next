@@ -1,7 +1,10 @@
+---
 title: 첫 번째 포스팅
+description: 비개발자 helen은 깃허브로 블로그를 만들어낸 것에 감격해 글을 쓰게 되는데..
 categories:
-
-- small talk
+ - small talk
+tags:
+---
 
 > helen의 첫 블로그 글입니다!
 
