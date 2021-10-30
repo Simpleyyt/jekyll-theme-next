@@ -1,10 +1,7 @@
-layout: post
-title: "첫 번째 포스팅"
-date: 2021-10-28
-categories: small talk
-tags: []
+title: 첫 번째 포스팅
+categories:
 
----
+- small talk
 
 > helen의 첫 블로그 글입니다!
 
