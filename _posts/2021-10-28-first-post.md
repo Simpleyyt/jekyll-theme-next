@@ -1,5 +1,5 @@
 ---
-title: Helen's first post
+깃허브 블로그 첫 게시글!
 description: Trying hard to write something meaningful for my first post. hmm...
 categories:
  - small talk
@@ -25,6 +25,10 @@ https://recoveryman.tistory.com/321?category=635733
 token 발급은 아래의 화면에서 Settings - Developer Settings - Personal access tokens에 가면 발급 받을 수 있다.
 발급받으면 나온 토큰을 복사해서 push 할 때 password를 입력하는 창에 cmd + v 해주면 된다.
 
-<img scr="https://user-images.githubusercontent.com/88134085/139533983-d36084a5-1aaf-4d4a-8131-369d2106f916.png"/>
+![screenshot](https://user-images.githubusercontent.com/88134085/139533983-d36084a5-1aaf-4d4a-8131-369d2106f916.png){: width="50%" height="50%"}
 
 사실 이것 외에도 이미지를 어떻게 올려야할지에 대한 방법을 많이 찾아봤다. 왜냐하면 난 비개발자이기 때문에..
+쉽게 이미지를 올리려면, 내 깃허브 repository 의 Issues 탭에서 New issue를 누른 후 아래 같은 화면에서 텍스트 본문 입력 창에 올리고 싶은 이미지를 드래그앤드롭하면 이미지의 링크를 얻을 수 있다.
+
+![screenshot2](https://user-images.githubusercontent.com/88134085/139535503-b7f9fdf4-a326-44aa-9040-9a0f98469255.png){: width="50%" height="50%"}
+
