@@ -3,8 +3,8 @@ title: CentOS RedHat免密登录时关闭SSH严格模式
 description: 在CentOS RedHat免密登录时关闭SSH严格模式，实现免密登陆
 categories:
  - linux
-   - redhat
-   - centos
+ - redhat
+ - centos
  - solution
 tags:
  - solution
