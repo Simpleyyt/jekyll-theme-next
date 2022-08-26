@@ -281,11 +281,11 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
+links_title: 友情链接
 #links_layout: block
 #links_layout: inline
-#links:
-  #Title: http://example.com/
+links:
+  Title: http://me.zhengqiao.wang/
 
 
 # ---------------------------------------------------------------
@@ -631,10 +631,10 @@ pace: true
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
