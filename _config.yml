@@ -440,7 +440,7 @@ gitalk:
   clientSecret: 4588adb27d7f71f609fa0203fef30210b6c9c8b9
   repo:   blog-comment
   owner:  ZhengqiaoWang 
-  admin:  ZhengqiaoWang 
+  admin:  ZhengqiaoWang
 
 # Baidu Share
 # Available value:
@@ -531,7 +531,7 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"></i>
@@ -586,12 +586,12 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
-  top_n_per_article: 1
+  top_n_per_article: -1
 
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
