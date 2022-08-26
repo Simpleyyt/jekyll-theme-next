@@ -438,9 +438,9 @@ gitalk:
   enable: true
   clientID: 3587de64d21667d3f1d9
   clientSecret: 4588adb27d7f71f609fa0203fef30210b6c9c8b9
-  repo: zhengqiaowang.github.io
-  owner: zhengqiaowang
-  admin: zhengqiaowang
+  repo:   blog-comment
+  owner:  ZhengqiaoWang 
+  admin:  ZhengqiaoWang 
 
 # Baidu Share
 # Available value:
