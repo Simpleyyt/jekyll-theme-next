@@ -95,6 +95,9 @@ authoricon: heart
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
 
+# 备案号
+beian: 豫ICP备18045451号-1
+
 # ---------------------------------------------------------------
 # SEO Settings
 # ---------------------------------------------------------------
