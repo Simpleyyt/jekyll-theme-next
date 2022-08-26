@@ -16,7 +16,7 @@ date_format: '%Y-%m-%d'
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
 url: https://www.zhengqiao.wang
 baseurl:
-permalink: pretty
+permalink: /:categories/:title.html
 
 # Pagination
 paginate: 10
