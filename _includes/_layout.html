@@ -15,6 +15,22 @@
   <title>{{ title }}</title>
   {% include _third-party/analytics/index.html %}
   <meta name="msvalidate.01" content="402282699E52B4ACCAABD496A833B466" />
+  <script>
+    var titleLocked = false;
+    var showTitle;
+    if (!titleLocked){
+      showTitle = document.title;
+    }
+    document.addEventListener('visibilitychange',function(){
+      var isHidden = document.hidden;
+      if(isHidden){
+        document.title = '快回来快回来~-王政乔';
+      } else {
+         document.title = showTitle;
+      }
+    }
+  );
+  </script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
