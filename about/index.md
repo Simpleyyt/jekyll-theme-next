@@ -3,4 +3,4 @@ layout: page
 type: about
 ---
 
-Building...
+Hi there. It's empty here!
