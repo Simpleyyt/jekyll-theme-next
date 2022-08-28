@@ -4,7 +4,13 @@ type: about
 comments: true
 ---
 
-## 自我简介
+<blockquote class="blockquote-center">
+
+一个简单程序员的自述
+
+**王政乔**
+
+</blockquote>
 
 我是王政乔，一名初级程序员，现居于中国河南郑州。
 
