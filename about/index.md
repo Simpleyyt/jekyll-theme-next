@@ -12,7 +12,7 @@ comments: true
 
 下面是我的一些社交账号链接，如果有兴趣可以访问：
 
-- <a href="https://space.bilibili.com/83542572"><i class="fa-brands fa-bilibili"></i></a>
-- 
+- <a href="https://space.bilibili.com/83542572"><i class="fa-brands fa-bilibili">@ZhengqiaoWang</i></a>
+- <a href="mailto:me@zhengqiao.wang"><i class="fa-light fa-at"></i>@ZhengqiaoWang</a>
 
 相遇就是缘，如果希望互换友链，可以在下方评论。
