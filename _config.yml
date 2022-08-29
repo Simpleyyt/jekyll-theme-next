@@ -241,7 +241,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.png
-avatar: /assets/images/avatar.png
+avatar: /assets/images/avatar.webp
 
 
 # Table Of Contents in the Sidebar
@@ -642,7 +642,7 @@ pace: true
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
