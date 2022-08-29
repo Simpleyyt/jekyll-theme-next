@@ -663,41 +663,72 @@ canvas_ribbon: false
 #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
 # Please use the https protocol of CDN files when you enable https on your site.
+# vendors:
+#   # Internal path prefix. Please do not edit it.
+#   _internal: assets/lib
+
+#   # Internal version: 2.1.3
+#   jquery:
+
+#   # Internal version: 2.1.5
+#   # See: http://fancyapps.com/fancybox/
+#   fancybox:
+#   fancybox_css:
+
+#   # Internal version: 1.0.6
+#   # See: https://github.com/ftlabs/fastclick
+#   fastclick:
+
+#   # Internal version: 1.9.7
+#   # See: https://github.com/tuupola/jquery_lazyload
+#   lazyload:
+
+#   # Internal version: 1.2.1
+#   # See: http://VelocityJS.org
+#   velocity:
+
+#   # Internal version: 1.2.1
+#   # See: http://VelocityJS.org
+#   velocity_ui:
+
+#   # Internal version: 0.7.9
+#   # See: https://faisalman.github.io/ua-parser-js/
+#   ua_parser:
+
+#   # Internal version: 4.6.2
+#   # See: http://fontawesome.io/
+#   fontawesome:
+
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: assets/lib
+  _internal: vendors
 
   # Internal version: 2.1.3
-  jquery:
+  jquery: //cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
-  # See: http://fancyapps.com/fancybox/
-  fancybox:
-  fancybox_css:
+  # Fancybox: http://fancyapps.com/fancybox/
+  fancybox: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js
+  fancybox_css: //cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
-  # See: https://github.com/ftlabs/fastclick
-  fastclick:
+  fastclick: //cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js
 
   # Internal version: 1.9.7
-  # See: https://github.com/tuupola/jquery_lazyload
-  lazyload:
+  lazyload: //cdn.jsdelivr.net/jquery.lazyload/1.9.3/jquery.lazyload.min.js
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
-  velocity:
+  velocity: //cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
-  velocity_ui:
+  velocity_ui: //cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js
 
   # Internal version: 0.7.9
-  # See: https://faisalman.github.io/ua-parser-js/
-  ua_parser:
+  ua_parser: //cdn.jsdelivr.net/ua-parser.js/0.7.10/ua-parser.min.js
 
-  # Internal version: 4.6.2
-  # See: http://fontawesome.io/
-  fontawesome:
+  # Internal version: 4.4.0
+  # http://fontawesome.io/
+  fontawesome: //maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css
 
   # Internal version: 1
   # https://www.algolia.com
