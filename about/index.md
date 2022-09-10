@@ -27,3 +27,15 @@ comments: true
 - [《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》[C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020.](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning)
 
 相遇就是缘，如果希望互换友链，可以在下方评论。
+
+## Github
+
+<img src="https://github-readme-stats.vercel.app/api?username=ZhengqiaoWang&show_icons=true&theme=default" alt="ZhengqiaoWang" />
+
+## 每周语言侧重
+
+```text
+C++                  24 hrs 00 mins  🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜   80.00 %
+Python               05 hrs 00 mins  🟩🟩🟩🟩🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.67 %
+Oracle Procedures    01 hrs 00 mins  🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   03.33 %
+```
