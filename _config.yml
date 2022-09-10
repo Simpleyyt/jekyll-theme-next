@@ -220,7 +220,7 @@ social:
   #LinkLabel: Link
   GitHub: https://github.com/ZhengqiaoWang
   语雀: https://www.yuque.com/joger/blog
-  Bilibili: https://space.bilibili.com/83542572
+  bilibili: https://space.bilibili.com/83542572
 
 
 # Social Links Icons
@@ -236,7 +236,7 @@ social_icons:
   # Twitter: twitter
   # Weibo: weibo
   语雀: book
-  Bilibili: bilibili
+  bilibili: external-link
 
 
 # Sidebar Avatar
