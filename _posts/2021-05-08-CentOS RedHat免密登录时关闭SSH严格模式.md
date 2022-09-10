@@ -1,6 +1,6 @@
 ---
 title: CentOS RedHat免密登录时关闭SSH严格模式
-description: 在CentOS RedHat免密登录时关闭SSH严格模式，实现免密登陆
+description: 在CentOS RedHat免密登录时关闭SSH严格模式，实现免密登陆。在使用VSCode的RemoteSSH连接远程RedHat服务器的时候发现总是链接失败，直接使用ssh可以免密登录。经过检查发现服务器默认设置了严格模式。
 categories:
  - linux
 tags:
