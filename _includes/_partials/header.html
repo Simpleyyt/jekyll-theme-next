@@ -1,6 +1,7 @@
 <div class="site-brand-wrapper">
   <div class="site-meta {% if site.custom_logo.enabled %}custom-logo{% endif %}">
-    {% if site.custom_logo.image and site.scheme == 'Muse' %}
+    <!-- {% if site.custom_logo.image and site.scheme == 'Muse' %} -->
+    {% if site.custom_logo.image %}
       <div class="site-meta-headline">
         <a>
           <img class="custom-logo-image" src="{{ site.custom_logo.image }}"
