@@ -155,8 +155,8 @@ menu_icons:
 
 # Schemes
 # scheme: Muse
-scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -315,14 +315,14 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -340,7 +340,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC 4.0
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
 
@@ -655,7 +655,7 @@ canvas_sphere: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: false
+canvas_ribbon: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
