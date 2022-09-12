@@ -3,7 +3,7 @@
   {% assign since = site.since | downcase %}
   &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
-  <span itemprop="run_time"></span>
+  <span id="run_time"></span>
   <script type="text/javascript">
     function runtime() {
       // 初始时间，日/月/年 时:分:秒
