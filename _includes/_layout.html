@@ -41,7 +41,7 @@
   </script>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}">
+<body itemscope itemtype="http://schema.org/WebPage" lang="{{ page.lang | default: page.language | default: site.language }}" onload="time()">
 
   {% assign container_class = "container " %}
   {% if site.sidebar.position %}

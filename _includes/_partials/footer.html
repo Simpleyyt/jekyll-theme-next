@@ -1,8 +1,30 @@
+<script>
+  /* 时间 */
+  function time() {
+    t_div = document.getElementById('showtime');
+    var now = new Date()
+    setTimeout(time, 1000);
+    var dangqian = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + now.getDate();
+    t_div.innerHTML = "已运行" + DateDiff("2019-09-19", dangqian) + "天";
+  }
+  /* 计算运行天数的封装函数 */
+  function DateDiff(sDate1, sDate2) {    //sDate1和sDate2是2002-12-18格式  
+    var aDate, oDate1, oDate2, iDays
+    aDate = sDate1.split("-")
+    oDate1 = new Date(aDate[1] + '-' + aDate[2] + '-' + aDate[0])    //转换为12-18-2002格式  
+    aDate = sDate2.split("-")
+    oDate2 = new Date(aDate[1] + '-' + aDate[2] + '-' + aDate[0])
+    iDays = parseInt(Math.abs(oDate1 - oDate2) / 1000 / 60 / 60 / 24)    //把相差的毫秒数转换为天数  
+    return iDays
+  }
+</script>
+
 <div class="copyright" >
   {% assign current = site.time | date: '%Y' %}
   {% assign since = site.since | downcase %}
   &copy; {% if site.since and since != current %} {{ since }} - {% endif %}
   <span itemprop="copyrightYear">{{ current }}</span>
+  <span itemprop="copyrightYear"><h2 id="showtime"></h2></span>
   <span class="with-love">
     <i class="fa fa-{{ site.authoricon }}"></i>
   </span>
