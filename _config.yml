@@ -344,7 +344,7 @@ post_copyright:
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
 
 post_announce_note:
-  announce_title: 温馨提示
+  announce_title: '温馨提示：'
   announce_note: '本站使用Github Page提供服务，资源均依托于开源仓库，如果你无法正常访问Github资源则可能导致部分图片或内容无法正常显示。'
 
 # ---------------------------------------------------------------
