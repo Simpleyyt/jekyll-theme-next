@@ -12,5 +12,9 @@
       <strong>{{ __.post.copyright.license_title | append: __.symbol.colon }} </strong>
       {{ __.post.copyright.license_content | replace_first: '%s', site.post_copyright.license_url | replace_first: '%s', site.post_copyright.license }}
     </li>
+    <li class="post-announce-note">
+      <strong>ATTENTION</strong>
+      {{ site.post_announce_note.announce_note }}
+    </li>
   </ul>
 {% endif %}

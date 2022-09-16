@@ -343,7 +343,8 @@ post_copyright:
   license: CC BY-NC 4.0
   license_url: https://creativecommons.org/licenses/by-nc/4.0/
 
-
+post_announce_note:
+  announce_note: 阿爸阿爸
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
