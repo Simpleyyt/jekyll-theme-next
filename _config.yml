@@ -21,8 +21,8 @@ permalink: /:categories/:title.html
 # Pagination
 paginate: 10
 #paginate_path: "/page:num/"
-#archive:
-  #paginate: 10
+archive:
+  paginate: 20
   #paginate_path: "/page:num/"
 #category:
   #paginate: 10
