@@ -27,10 +27,7 @@
     <i class="fa fa-{{ site.authoricon }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ site.author }}</span>
-  <span class="author" itemprop="copyrightHolder"><a class="beian-link"
-      href="https://beian.miit.gov.cn/?token=5afcc1d2-f71d-48b2-97e0-3db8f54219cf#/Integrated/recordQuery">
-      {{site.beian }}
-    </a>
+  <span class="author" itemprop="copyrightHolder">
   </span>
 </div>
 
@@ -53,6 +50,7 @@
         alt="" style="width:auto;height:16px;"> </a>
   </span>
   <span>
-    <a href="https://icp.gov.moe/?keyword=20229669" target="_blank">萌ICP备20229669号</a>
+    <a class="beian-link"
+      href="https://beian.miit.gov.cn/?token=5afcc1d2-f71d-48b2-97e0-3db8f54219cf#/Integrated/recordQuery">{{site.beian }}</a> | <a href="https://icp.gov.moe/?keyword={{site.mengbeianid}}" target="_blank">萌ICP备{{site.mengbeianid}}号</a>
   </span>
 </div>
