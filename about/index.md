@@ -6,7 +6,7 @@ comments: true
 
 [[English]](aboutme_en.md)
 
-<blockquote class="blockquote-center">一个简单程序员的自述</blockquote>
+<blockquote class="blockquote-center">以谦卑之心，蓄进取之志。</blockquote>
 
 我是王政乔，一名初级程序员，干饭先锋，现居于中国河南郑州。
 
