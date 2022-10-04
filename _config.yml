@@ -125,6 +125,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
+  travellings: https://travellings.link
   # sitemap: /sitemap.xml
   # commonweal: /404.html
 
@@ -145,6 +146,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  travellings: subway
 
 
 
