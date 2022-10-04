@@ -96,7 +96,8 @@ authoricon: heart
 copyright: true
 
 # 备案号
-beian: 豫ICP备18045451号-1
+beian_pos: 豫
+beianid: 18045451
 mengbeianid: 20229669
 
 # ---------------------------------------------------------------
