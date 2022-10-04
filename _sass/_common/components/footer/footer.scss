@@ -13,8 +13,12 @@
 }
 
 .powered-by,
-.theme-info { display: inline-block; }
+.theme-info,
+.beian-link,
+.mengbeian-link
+ { display: inline-block; }
 
+.beian-link,
 .powered-by {
   margin-right: 10px;
 
