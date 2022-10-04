@@ -4,7 +4,7 @@ type: about
 comments: true
 ---
 
-[English](about/aboutme_en.md)
+[English](aboutme_en.md)
 
 <blockquote class="blockquote-center">一个简单程序员的自述</blockquote>
 
