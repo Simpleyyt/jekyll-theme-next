@@ -13,11 +13,13 @@
 }
 
 .powered-by,
-.theme-info
+.theme-info,
+.beian-info
+.mengbeian-info
  { display: inline-block; }
 
-.beian-link,
-.powered-by {
+.powered-by,
+.beian-info {
   margin-right: 10px;
 
   &::after {
