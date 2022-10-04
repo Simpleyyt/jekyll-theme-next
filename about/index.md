@@ -4,6 +4,8 @@ type: about
 comments: true
 ---
 
+[English](about/aboutme_en.md)
+
 <blockquote class="blockquote-center">一个简单程序员的自述</blockquote>
 
 我是王政乔，一名初级程序员，干饭先锋，现居于中国河南郑州。
