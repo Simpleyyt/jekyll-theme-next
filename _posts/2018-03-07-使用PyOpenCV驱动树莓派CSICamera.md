@@ -17,7 +17,7 @@ keywords:
   - 摄像头
   - 树莓派
 date: 2018-03-07 00:00:00
-updated: 2022-10-04 00:00:00
+updated: 2022-10-17 00:00:00
 ---
 
 目前，物联网行业大热，机器视觉作为其中重要的一部分，被众多开发者喜爱。
@@ -32,7 +32,7 @@ Raspberry Pi(树莓派)是应用物联网的一大平台，与其摄像头相关
 
 如下图所示
 
-![](https://raw.githubusercontent.com/ZhengqiaoWang/blog_resources_1/main/202210041101046.png)
+![](https://res1.zhengqiao.wang/202210041101046.png)
 
 ### 第二步 开启摄像头功能
 
