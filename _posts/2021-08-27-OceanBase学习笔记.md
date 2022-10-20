@@ -5,6 +5,7 @@ categories:
  - book
 tags:
  - oceanbase
+ - book
 keywords:
   - oceanbase
   - 数据库
