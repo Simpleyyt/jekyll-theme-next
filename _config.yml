@@ -22,7 +22,7 @@ permalink: /:categories/:title.html
 paginate: 10
 #paginate_path: "/page:num/"
 archive:
-  paginate: 20
+  paginate: 100
   #paginate_path: "/page:num/"
 #category:
   #paginate: 10
