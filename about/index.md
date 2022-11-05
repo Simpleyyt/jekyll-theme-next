@@ -24,12 +24,22 @@ comments: true
 
 ## 产出
 
-- [JArgsParser: 一个只有一个头文件的C++参数解析库](https://github.com/ZhengqiaoWang/JArgsParser)
-- [《Pandas中文快速入门教程》](https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN)
-- [《Apache Arrow中文快速入门》](https://arrowdoc.zhengqiao.wang/)
-- [《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》[C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020.](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning)
+| 类型  | 名称  | 简介  | 地址  |
+| --- | --- | --- | --- |
+| 开源库 | JArgsParser | 一个只有一个头文件的C++参数解析库 | [https://github.com/ZhengqiaoWang/JArgsParser](https://github.com/ZhengqiaoWang/JArgsParser) |
+| 开源库 | DecoupleLogger | 一个只有一个头文件的C++11日志分离库 | [https://github.com/ZhengqiaoWang/DecoupleLogger](https://github.com/ZhengqiaoWang/DecoupleLogger) |
+| 文档 | 《Pandas中文快速入门教程》 | 一个能帮助SQLer快速过渡的Pandas中文入门教程 | [https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN](https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN) |
+| 文档 | 《Apache Arrow中文快速入门》 | Apache Arrow C++的中文入门教程 | [https://arrowdoc.zhengqiao.wang/](https://arrowdoc.zhengqiao.wang/) |
+| 论文 | 《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》 | [C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020. | [https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning)
+|     |     |     |     |
 
-相遇就是缘，如果希望互换友链，可以在下方评论。
+## 证书
+
+| 类型  | 地址  |
+| --- | --- |
+| 在校证书 | [点击跳转](prize/school_prize.md) |
+| 技能证书 | [点击跳转](prize/skill_prize.md) |
+| | |
 
 ## Github
 
@@ -46,3 +56,5 @@ Oracle Procedures  01 hrs  🟨⬜⬜⬜⬜⬜⬜⬜⬜⬜  03.33 %
 ## 提示
 
 本站使用Github Page提供服务，资源均依托于开源仓库，如果你无法正常访问Github资源则可能导致部分图片或内容无法正常显示。
+
+相遇就是缘，如果希望互换友链，可以在下方评论。
