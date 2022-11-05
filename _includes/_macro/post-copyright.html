@@ -30,7 +30,7 @@
         window.clipboardData.setData("Text", copyText);
         return false;
       } else {
-        var pagelink = " 原文出自" + blogName + " 转载请保留原文链接: " + document.location.href + "";
+        var pagelink = "\n\n 原文出自" + blogName + " 转载请保留原文链接: " + document.location.href + "";
         var copyText = selection + pagelink;
         var newDiv = document.createElement('div');
         newDiv.style.position = 'absolute';
