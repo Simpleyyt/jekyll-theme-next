@@ -31,7 +31,6 @@ comments: true
 | 文档 | 《Pandas中文快速入门教程》 | 一个能帮助SQLer快速过渡的Pandas中文入门教程 | [https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN](https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN) |
 | 文档 | 《Apache Arrow中文快速入门》 | Apache Arrow C++的中文入门教程 | [https://arrowdoc.zhengqiao.wang/](https://arrowdoc.zhengqiao.wang/) |
 | 论文 | 《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》 | [C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020. | [https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning)
-|     |     |     |     |
 
 ## 证书
 
@@ -39,7 +38,6 @@ comments: true
 | --- | --- |
 | 在校证书 | [点击跳转](prize/school_prize.md) |
 | 技能证书 | [点击跳转](prize/skill_prize.md) |
-| | |
 
 ## Github
 
