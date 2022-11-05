@@ -17,33 +17,4 @@
       {{ site.post_announce_note.announce_note }}
     </li>
   </ul>
-  <script>
-    function addLink() {
-      var body_element = document.body;
-      var selection;
-      //var selection = window.getSelection();
-      var blogName = '[王政乔]'; // 此处修改成你自己网站的名称
-      selection = window.getSelection() ? window.getSelection() : document.selection.createRange().htmlText;
-      if (window.clipboardData) { // Internet Explorer
-        var pagelink = "\n\n 原文出自" + blogName + " 转载请保留原文链接: " + document.location.href + "";
-        var copyText = selection + pagelink;
-        window.clipboardData.setData("Text", copyText);
-        return false;
-      } else {
-        var pagelink = "\n\n 原文出自" + blogName + " 转载请保留原文链接: " + document.location.href + "";
-        var copyText = selection + pagelink;
-        var newDiv = document.createElement('div');
-        newDiv.style.position = 'absolute';
-        newDiv.style.left = '-99999px';
-        body_element.appendChild(newDiv);
-        newDiv.innerHTML = copyText;
-        selection.selectAllChildren(newDiv);
-        window.setTimeout(function () {
-          body_element.removeChild(newDiv);
-        },
-          0);
-      }
-    }
-    document.oncopy = addLink;
-  </script>
 {% endif %}
