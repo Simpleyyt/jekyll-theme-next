@@ -23,7 +23,7 @@
       var selection;
       //var selection = window.getSelection();
       var blogName = '[王政乔]'; // 此处修改成你自己网站的名称
-      selection = window.getSelection() ? window.getSelection() : document.selection.createRange().text;
+      selection = window.getSelection() ? window.getSelection() : document.selection.createRange().htmlText;
       if (window.clipboardData) { // Internet Explorer
         var pagelink = "\n\n 原文出自" + blogName + " 转载请保留原文链接: " + document.location.href + "";
         var copyText = selection + pagelink;
