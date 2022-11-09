@@ -127,6 +127,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
+  notice: /notice/
   travellings: https://travellings.link
   # sitemap: /sitemap.xml
   # commonweal: /404.html
@@ -223,7 +224,6 @@ font:
 social:
   #LinkLabel: Link
   GitHub: https://github.com/ZhengqiaoWang
-  语雀: https://www.yuque.com/joger/blog
   bilibili: https://space.bilibili.com/83542572
 
 
@@ -239,7 +239,6 @@ social_icons:
   GitHub: github
   # Twitter: twitter
   # Weibo: weibo
-  语雀: book
   bilibili: external-link
 
 
