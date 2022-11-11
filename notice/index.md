@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 type: notice
 title: 公告与更新日志
 comments: true
