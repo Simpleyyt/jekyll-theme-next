@@ -1,23 +1,15 @@
 ---
-layout: page
+layout: post
 type: notice
 title: 公告与更新日志
 comments: true
 ---
-
-## 最新公告
 
 <blockquote class="blockquote-center">2022年11月09日</blockquote>
 
 到目前为止，小站已经基本上移植完成了，也恰好语雀的VIP已经过期，将不再维护语雀，将重心转移到本站上来~
 
 感谢各类朋友们的关注与关心~
-
-## 最新日志
-
-### 2022年11月09日
-
-彻底与语雀说拜拜~
 
 ----------------------
 
@@ -30,6 +22,10 @@ comments: true
 如果希望访问实质性的内容可以到[旧站点-语雀](https://www.yuque.com/joger/blog)获取最新内容哟～
 
 ## 更新日志
+
+### 2022年11月09日
+
+彻底与语雀说拜拜~
 
 ### 2022年10月04日
 
