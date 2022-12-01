@@ -30,6 +30,7 @@ comments: true
 | --- | --- | --- |
 | JArgsParser | 一个只有一个头文件的C++参数解析库 | [https://github.com/ZhengqiaoWang/JArgsParser](https://github.com/ZhengqiaoWang/JArgsParser) |
 | DecoupleLogger | 一个只有一个头文件的C++11日志分离库 | [https://github.com/ZhengqiaoWang/DecoupleLogger](https://github.com/ZhengqiaoWang/DecoupleLogger) |
+| JProgressBar | 一个只有一个头文件的C++控制台进度条库 | [https://github.com/ZhengqiaoWang/JProgressBar](https://github.com/ZhengqiaoWang/JProgressBar) |
 
 ### 文档
 
