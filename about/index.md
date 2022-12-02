@@ -26,24 +26,24 @@ comments: true
 
 ### 开源库
 
-| 名称  | 简介  | 地址  |
-| --- | --- | --- |
-| JArgsParser | 一个只有一个头文件的C++参数解析库 | [https://github.com/ZhengqiaoWang/JArgsParser](https://github.com/ZhengqiaoWang/JArgsParser) |
-| DecoupleLogger | 一个只有一个头文件的C++11日志分离库 | [https://github.com/ZhengqiaoWang/DecoupleLogger](https://github.com/ZhengqiaoWang/DecoupleLogger) |
-| JProgressBar | 一个只有一个头文件的C++控制台进度条库 | [https://github.com/ZhengqiaoWang/JProgressBar](https://github.com/ZhengqiaoWang/JProgressBar) |
+| 名称  | 简介  |
+| --- | --- |
+| [JArgsParser](https://github.com/ZhengqiaoWang/JArgsParser) | 一个只有一个头文件的C++参数解析库 |
+| [DecoupleLogger](https://github.com/ZhengqiaoWang/DecoupleLogger) | 一个只有一个头文件的C++11日志分离库 |
+| [JProgressBar](https://github.com/ZhengqiaoWang/JProgressBar) | 一个只有一个头文件的C++控制台进度条库 |
 
 ### 文档
 
-| 名称  | 简介  | 地址  |
-| ---  | --- | --- |
-| 《Pandas中文快速入门教程》 | 一个能帮助SQLer快速过渡的Pandas中文入门教程 | [https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN](https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN) |
-| 《Apache Arrow中文快速入门》 | Apache Arrow C++的中文入门教程 | [https://arrowdoc.zhengqiao.wang/](https://arrowdoc.zhengqiao.wang/) |
+| 名称  | 简介  |
+| ---  | --- |
+| [《Pandas中文快速入门教程》](https://github.com/ZhengqiaoWang/pandas-get-started-quickly-zhCN) | 一个能帮助SQLer快速过渡的Pandas中文入门教程 |
+| [《Apache Arrow中文快速入门》](https://arrowdoc.zhengqiao.wang/) | Apache Arrow C++的中文入门教程 |
 
 ### 论文
 
-| 名称  | 简介  | 地址  |
-| --- | --- | --- |
-| 《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》 | [C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020. | [https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning)
+| 名称  | 简介  |
+| --- | --- |
+| [《Refining Co-operative Competition of Robocup Soccer with Reinforcement Learning》](https://www.researchgate.net/publication/343802887_Refining_Co-operative_Competition_of_Robocup_Soccer_with_Reinforcement_Learning) | [C]// 2020 IEEE Fifth International Conference on Data Science in Cyberspace (DSC). IEEE, 2020. |
 
 ## 证书
 
