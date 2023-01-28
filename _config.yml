@@ -76,10 +76,10 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: https://tgktd.neocities.org/image/Logo.svg
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "tgktd,blog,telegram"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+#since: 2023
 
 # icon between year and author @Footer
 authoricon: heart
@@ -285,8 +285,8 @@ sidebar:
 #links_layout: block
 #links_layout: inline
 #links:
-  #Title: http://example.com/
-
+  #Title: https://tgktd.neocities.org
+//友情链接
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -313,6 +313,11 @@ post_meta:
   created_at: true
   updated_at: false
   categories: true
+
+# canvas_nest
+canvas_nest: true //开启动画
+
+use_motion: true  # 开启动画效果
 
 # Post wordcount display settings
 post_wordcount:
