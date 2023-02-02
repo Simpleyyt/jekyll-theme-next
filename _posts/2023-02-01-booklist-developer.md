@@ -1,14 +1,17 @@
 ---
-title: Highlight Test
+title: 程序媛的百本书单之旅
 categories:
- - Test
-tags:
+ - 记录
+tags: 书单，知识管理
 ---
 
-This is a highlight test.
+书读百遍，其义自见。目前主要使用的两个编程语言是`Java`、`Python`。
 
 # Normal block
 
+- 《Effective Python》
+- 《Fluent Python》
+- 《Core Java》
 ```
 alert('Hello World!');
 ```
