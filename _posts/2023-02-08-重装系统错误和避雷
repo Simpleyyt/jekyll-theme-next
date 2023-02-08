@@ -15,7 +15,7 @@ bootrec /fixboot
 
 bootrec /rebuildbcd
 
-
+修复
 Linux直接装系统的雷
 遇到WiFi模块无法加载
 系统转换格式后导致原系统产生错误
