@@ -92,10 +92,13 @@ github上刚好有一个项目，同时是有汉化，
 
 * wiget软件源:
 https://winget.run/
+
 * Scoop-舀：
 https://scoop.sh/#/
+
 一次安装和更新所有程序：
 * https://ninite.com/
+
 推荐好用、优秀的 Windows 应用：
 * https://github.com/stackia/best-windows-apps
 
