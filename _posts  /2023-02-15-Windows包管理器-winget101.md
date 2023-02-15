@@ -64,6 +64,7 @@ github上刚好有一个项目，同时是有汉化，
 
 #### 显示系统安装软件的列表
     winget list [&&&]
+
 #### 搜索应用
     winget search [@@@]
 
