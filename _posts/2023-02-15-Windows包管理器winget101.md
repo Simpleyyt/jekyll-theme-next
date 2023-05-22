@@ -77,14 +77,6 @@ github上刚好有一个项目，同时是有汉化，
     winget install Musescore.Musescore --rainbow
 
 
-## 延伸参考(急，写到这里看到的，又又写重复了)
-包管理器 winget 使用指南
-延伸的图文博文看这篇
-<https://www.lifeee.top/posts/36943.html>
-
-顺带看了下热夏的telegram推荐
-<https://www.lifeee.top/posts/20469.html>
-
 
 
 
