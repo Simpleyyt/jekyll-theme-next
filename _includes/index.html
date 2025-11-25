@@ -2,10 +2,15 @@
 {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
 
 <section id="posts" class="posts-expand">
-  {% for post in posts %}
+
+{% assign stickies = posts | group_by: 'sticky' %}
+{% assign stickiesSorted = stickies | sort: 'name' | reverse %}
+{% for sposts in stickiesSorted %}
+  {% for post in sposts.items | sort: 'date' %}
     {% assign is_index = true %}
     {% include _macro/post.html %}
   {% endfor %}
+{% endfor %}
 </section>
 
 {% include _partials/pagination.html %}
